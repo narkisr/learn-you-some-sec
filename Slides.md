@@ -92,17 +92,19 @@ See:
 
 ![security-by-obscurity.png](images/security-by-obscurity.png)
 
-Note: how not to secure your system (or is it?)
+Note:
+
+For example port knocking
+
+Close source security
+
+Legal based security
 
 ---
 
 # The Attacker mindset
 
----
-
-
-## Know your enemy
-
+![hacker](images/hacker.png)
 ---
 
 ### Actors
@@ -123,11 +125,13 @@ Note: how not to secure your system (or is it?)
   * Extortion
   * Industrial
 
+
 ---
 
 ### Scope
 
-* Targeted (watering hole, spear phishing)
+* Single Targeted (spear phishing)
+* Group Targeted (watering hole)
 * Wide net (automated, large scale)
 
 Note:
@@ -139,6 +143,12 @@ Note:
 * Botnets networks offer another example of large scale automated attack
 
 * Another [example](https://www.proofpoint.com/us/blog/threat-insight/i-knew-you-were-trouble-ta456-targets-defense-contractor-alluring-social-media) of a targeted attack
+---
+
+### Peneration flow
+
+![penetration](images/penetration-flow.png)
+
 ---
 
 ### Reverse shell
@@ -184,6 +194,20 @@ Note:
 
 ---
 
+### DuckyScript
+
+```
+REM Type Hello World into Windows notepad.
+DELAY 1000
+GUI r
+DELAY 100
+STRING c:\windows\notepad.exe
+ENTER
+DELAY 1000
+STRING Hello World
+```
+
+---
 
 ### The 7 principles (influence)
 
@@ -208,7 +232,7 @@ Examples per principle:
 
 ---
 
-### Deception
+### Identity Deception
 
 * Email from header
 * Caller ids (inc SMS)
@@ -222,6 +246,7 @@ Note: see https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding at
 
 # Protecting
 
+![shield](images/shield.png)
 ---
 
 ### Compartmentalize
@@ -253,6 +278,8 @@ Note: provides cilpboard protection, network isolation, local privesc mitigation
 * Use >= 2 phones (per use case)
 * No root
 
+---
+
 ### Mobile hardening (2)
 
 * Reset/Restart once in a while
@@ -271,15 +298,15 @@ Note:
 * Minimal extensions set
 * Upgrade constantly
 * Don't trust PDF viewer blindly
-* Run single site per sandbox (see Qubes) to prevent XSS etc..
+* Run single site per sandbox (i.e Qubes)
 
 ---
 
 ### Network hardening
 
-* VLAN and segmented networks
-* Traffic monitoring
-* Geo/reputation blocking
+* segmented networks (VLAN's)
+* Monitor traffic
+* block based onGeo/reputation
 * Don't trust WIFI security
 
 Note:
@@ -297,14 +324,11 @@ Note:
 
 ---
 
-### Verification
+### Verify
 
 * You can't prove security you can only refute it:
-
   * Check activity logs.
-
   * Monitor your network/services (ELK/Pfsense)
-
   * Look for things which are out of place*
 
 Note:
@@ -312,22 +336,18 @@ Note:
 Things to watch out for:
 
 * Odd DNS lookups
-
 * Email inbox filters, read emails
-
 * Crashing applications
-
 * Odd services/files/processes
-
 * High bandwidth usage
 
 ---
 
 ### Patch yourself!
 
-* Delay (take your time, never rush into action).
-* Pull vs push.
-* Use outbound channels when someone reaches you.
+* Delay (don't rush into action).
+* Prefer Pull over push.
+* Use outbound channels for verification.
 * Don't be embarrassed to question.
 
 ---
@@ -361,6 +381,10 @@ Note:
 * Pins
 * Secret questions (not so secret)
 * Patterns
+
+Note:
+
+Pins are usually a weak form of a password (4-6 range)
 
 ---
 
@@ -408,7 +432,6 @@ CVE critically stats https://www.cvedetails.com/
 
 ---
 
-
 ### UX vs Risk
 
 ![ux-vs-risk](images/ux-vs-risk.png)
@@ -423,7 +446,6 @@ CVE critically stats https://www.cvedetails.com/
 
 * Induction vs deduction (The Turkey).
 
-
 Note:
 
 We are use to thinking in gausian terms (i.e normal distribution), security doesn't comply with that, security in black swan terms is from exremistan!
@@ -431,7 +453,6 @@ We are use to thinking in gausian terms (i.e normal distribution), security does
 Scalable vs non scalable (security is scalable due to automation)
 
 Extermistan vs Mediocristan (std deviation bell curve vs likelihood of extreme events)
-
 
 ---
 

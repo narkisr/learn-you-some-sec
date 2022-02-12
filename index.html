@@ -88,13 +88,13 @@
 
 ![security-by-obscurity.png](images/security-by-obscurity.png)
 
-<aside class="notes"><p>how not to secure your system (or is it?)</p>
+<aside class="notes"><p>For example port knocking</p>
+<p>Close source security</p>
+<p>Legal based security</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 # The Attacker mindset
-</script></section><section  data-markdown><script type="text/template">
 
-## Know your enemy
-</script></section><section  data-markdown><script type="text/template">
+![hacker](images/hacker.png)</script></section><section  data-markdown><script type="text/template">
 ### Actors
 
    * State
@@ -110,10 +110,12 @@
   * Military
   * Extortion
   * Industrial
+
 </script></section><section  data-markdown><script type="text/template">
 ### Scope
 
-* Targeted (watering hole, spear phishing)
+* Single Targeted (spear phishing)
+* Group Targeted (watering hole)
 * Wide net (automated, large scale)
 
 <aside class="notes"><ul>
@@ -127,6 +129,10 @@
 </li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
+### Peneration flow
+
+![penetration](images/penetration-flow.png)
+</script></section><section  data-markdown><script type="text/template">
 ### Reverse shell
 
 ![shell](images/shell-anatomy.png)
@@ -160,7 +166,19 @@
 </script></section><section  data-markdown><script type="text/template">
 ![omg-vs-legit](images/omg-vs-legit.png)
 </script></section><section  data-markdown><script type="text/template">
+### DuckyScript
 
+```
+REM Type Hello World into Windows notepad.
+DELAY 1000
+GUI r
+DELAY 100
+STRING c:\windows\notepad.exe
+ENTER
+DELAY 1000
+STRING Hello World
+```
+</script></section><section  data-markdown><script type="text/template">
 ### The 7 principles (influence)
 
 * Reciprocity
@@ -182,7 +200,7 @@
 <li>Unity: We both play hockey</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Deception
+### Identity Deception
 
 * Email from header
 * Caller ids (inc SMS)
@@ -193,7 +211,8 @@
 <aside class="notes"><p>see <a href="https://en.wikipedia.org/wiki/IDN_homograph_attack">https://en.wikipedia.org/wiki/IDN_homograph_attack</a> for URL encoding attacks</p>
 </aside></script></section><section  data-markdown><script type="text/template">
 # Protecting
-</script></section><section  data-markdown><script type="text/template">
+
+![shield](images/shield.png)</script></section><section  data-markdown><script type="text/template">
 ### Compartmentalize
 
 * Sandbox heavily
@@ -216,7 +235,7 @@
 * Choose Reputable vendor
 * Use >= 2 phones (per use case)
 * No root
-
+</script></section><section  data-markdown><script type="text/template">
 ### Mobile hardening (2)
 
 * Reset/Restart once in a while
@@ -234,13 +253,13 @@
 * Minimal extensions set
 * Upgrade constantly
 * Don't trust PDF viewer blindly
-* Run single site per sandbox (see Qubes) to prevent XSS etc..
+* Run single site per sandbox (i.e Qubes)
 </script></section><section  data-markdown><script type="text/template">
 ### Network hardening
 
-* VLAN and segmented networks
-* Traffic monitoring
-* Geo/reputation blocking
+* segmented networks (VLAN's)
+* Monitor traffic
+* block based onGeo/reputation
 * Don't trust WIFI security
 
 <aside class="notes"><ul>
@@ -254,35 +273,27 @@
 * Understand permissions
 * Frequent patch cycles
 </script></section><section  data-markdown><script type="text/template">
-### Verification
+### Verify
 
 * You can't prove security you can only refute it:
-
   * Check activity logs.
-
   * Monitor your network/services (ELK/Pfsense)
-
   * Look for things which are out of place*
 
 <aside class="notes"><p>Things to watch out for:</p>
 <ul>
-<li><p>Odd DNS lookups</p>
-</li>
-<li><p>Email inbox filters, read emails</p>
-</li>
-<li><p>Crashing applications</p>
-</li>
-<li><p>Odd services/files/processes</p>
-</li>
-<li><p>High bandwidth usage</p>
-</li>
+<li>Odd DNS lookups</li>
+<li>Email inbox filters, read emails</li>
+<li>Crashing applications</li>
+<li>Odd services/files/processes</li>
+<li>High bandwidth usage</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### Patch yourself!
 
-* Delay (take your time, never rush into action).
-* Pull vs push.
-* Use outbound channels when someone reaches you.
+* Delay (don't rush into action).
+* Prefer Pull over push.
+* Use outbound channels for verification.
 * Don't be embarrassed to question.
 </script></section><section  data-markdown><script type="text/template">
 # Passwords secrets and lies!
@@ -309,7 +320,9 @@
 * Pins
 * Secret questions (not so secret)
 * Patterns
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>Pins are usually a weak form of a password (4-6 range)</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ### Attacks
 
 * Remote (using dumps):
@@ -340,7 +353,6 @@
 
 ![risk-vs-cost](images/risk-vs-cost.png)
 </script></section><section  data-markdown><script type="text/template">
-
 ### UX vs Risk
 
 ![ux-vs-risk](images/ux-vs-risk.png)
@@ -352,7 +364,6 @@
 * Defense is a risk/cost/ux balancing act.
 
 * Induction vs deduction (The Turkey).
-
 
 <aside class="notes"><p>We are use to thinking in gausian terms (i.e normal distribution), security doesn&#39;t comply with that, security in black swan terms is from exremistan!</p>
 <p>Scalable vs non scalable (security is scalable due to automation)</p>

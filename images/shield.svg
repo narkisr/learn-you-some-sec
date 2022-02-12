@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24.98616mm"
+   height="26.20343mm"
+   viewBox="0 0 24.98616 26.20343"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="shield.svg"
+   inkscape:export-filename="/home/ronen/learn-you-some-sec/images/shield.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77415123"
+     inkscape:cx="353.93601"
+     inkscape:cy="521.21599"
+     inkscape:window-width="1916"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.1379331,-10.74716)">
+    <path
+       d="m 21.922723,32.0806 c -0.47583,-0.22315 -0.93805,-0.47831 -1.3834,-0.76451 -1.922938,-1.23582 -3.450139,-2.99828 -4.399702,-5.07754 -0.949563,-2.07923 -1.281457,-4.38758 -0.956151,-6.65012 0.06599,-0.45889 0.158432,-0.91196 0.276383,-1.35712 l 6.46329,-2.08915 6.46235,2.08883 c 0.118,0.44527 0.21047,0.89845 0.27646,1.35744 0.32531,2.26254 -0.007,4.57089 -0.95615,6.65012 -0.94956,2.07926 -2.47677,3.84172 -4.3997,5.07754 -0.44535,0.2862 -0.90758,0.54136 -1.38338,0.76451 z"
+       stroke="#c2ccde"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path824"
+       style="fill:none;stroke:#000000;stroke-width:1.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

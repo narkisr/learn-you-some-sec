@@ -30,9 +30,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="2.1896303"
-     inkscape:cx="418.33545"
-     inkscape:cy="219.90013"
+     inkscape:zoom="1.0948152"
+     inkscape:cx="179.93905"
+     inkscape:cy="219.67179"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -48,7 +48,7 @@
      transform="translate(-21.82247,-10.983997)">
     <g
        id="g2066"
-       transform="matrix(0.63491484,0,0,0.59318104,23.031101,4.4809413)"
+       transform="matrix(0.63491484,0,0,0.59318104,23.031101,-5.5732258)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -90,7 +90,7 @@
     </g>
     <g
        id="g2059"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.34884,-337.15209)"
+       transform="matrix(-2.8671262,0,0,2.5269831,288.34884,-347.20632)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -101,7 +101,7 @@
     </g>
     <path
        fill-rule="evenodd"
-       d="m 84.639803,40.053322 a 0.29792138,0.26331124 35.528693 0 1 0.395466,-0.0412 l 5.718565,4.083316 -0.563277,-2.437935 a 0.29831287,0.26365725 35.528673 0 1 0.560007,-0.0583 l 0.715557,3.099282 a 0.29792138,0.26331124 35.528693 0 1 -0.21665,0.303417 l -3.163773,0.32933 a 0.29830371,0.26364915 35.52868 0 1 -0.126652,-0.548587 l 2.488781,-0.25865 -5.71857,-4.083316 a 0.29792138,0.26331124 35.528693 0 1 -0.08945,-0.387397 z"
+       d="m 84.639803,29.999149 a 0.29792138,0.26331124 35.528693 0 1 0.395466,-0.0412 l 5.718565,4.083316 -0.563277,-2.437935 a 0.29831287,0.26365725 35.528673 0 1 0.560007,-0.0583 l 0.715557,3.099282 a 0.29792138,0.26331124 35.528693 0 1 -0.21665,0.303417 l -3.163773,0.32933 a 0.29830371,0.26364915 35.52868 0 1 -0.126652,-0.548587 l 2.488781,-0.25865 -5.71857,-4.083316 a 0.29792138,0.26331124 35.528693 0 1 -0.08945,-0.387397 z"
        id="path2080-5"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -109,7 +109,7 @@
        inkscape:export-ydpi="96" />
     <path
        fill-rule="evenodd"
-       d="m 84.147287,31.87638 a 0.26331123,0.29792138 69.378686 0 1 0.186061,-0.351402 l 6.576616,-2.474745 -2.338495,-0.890199 a 0.26365269,0.29830772 69.378667 0 1 0.263507,-0.497556 l 2.972562,1.13213 a 0.26331123,0.29792138 69.378686 0 1 0.1313,0.348935 l -1.488771,2.81094 A 0.26365298,0.29830803 69.37868 0 1 89.92391,31.754091 l 1.171501,-2.210999 -6.576624,2.474764 A 0.26331123,0.29792138 69.378686 0 1 84.14722,31.87634 Z"
+       d="m 84.147287,21.822207 a 0.26331123,0.29792138 69.378686 0 1 0.186061,-0.351402 l 6.576616,-2.474745 -2.338495,-0.890199 a 0.26365269,0.29830772 69.378667 0 1 0.263507,-0.497556 l 2.972562,1.13213 a 0.26331123,0.29792138 69.378686 0 1 0.1313,0.348935 l -1.488771,2.81094 A 0.26365298,0.29830803 69.37868 0 1 89.92391,21.699918 l 1.171501,-2.210999 -6.576624,2.474764 A 0.26331123,0.29792138 69.378686 0 1 84.14722,21.822167 Z"
        id="path2080-5-3"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -117,7 +117,7 @@
        inkscape:export-ydpi="96" />
     <g
        id="g1856"
-       transform="matrix(1.5866317,0,0,1.4139338,-88.941996,-187.67081)"
+       transform="matrix(1.5866317,0,0,1.4139338,-88.941996,-197.72504)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -140,7 +140,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="65.814171"
-       y="40.83252"
+       y="30.778343"
        id="text2410"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
@@ -149,12 +149,12 @@
          id="tspan2408"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
          x="65.814171"
-         y="40.83252">osint</tspan></text>
+         y="30.778343">osint</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="65.345032"
-       y="33.499832"
+       y="23.445656"
        id="text2410-6"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
@@ -163,10 +163,10 @@
          id="tspan2408-7"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
          x="65.345032"
-         y="33.499832">scanning</tspan></text>
+         y="23.445656">scanning</tspan></text>
     <g
        id="g2078-4"
-       transform="matrix(2.613735,0,0,2.1488378,-295.16032,-261.65231)"
+       transform="matrix(2.613735,0,0,2.1488378,-295.16032,-271.70654)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -179,7 +179,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
        x="22.42544"
-       y="39.857754"
+       y="29.455904"
        id="text5894"
        transform="scale(1.0345801,0.96657572)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -189,10 +189,10 @@
          id="tspan5892"
          style="stroke-width:0.162373"
          x="22.42544"
-         y="39.857754">1.</tspan></text>
+         y="29.455904">1.</tspan></text>
     <g
        id="g2066-2"
-       transform="matrix(0.63491484,0,0,0.59318104,23.19159,33.888265)"
+       transform="matrix(0.63491484,0,0,0.59318104,23.19159,23.834092)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -234,7 +234,7 @@
     </g>
     <g
        id="g2059-9"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.50973,-307.74482)"
+       transform="matrix(-2.8671262,0,0,2.5269831,288.50973,-317.79905)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -245,7 +245,7 @@
     </g>
     <path
        fill-rule="evenodd"
-       d="m 81.924366,63.995787 a 0.29792138,0.26331123 0.19018588 0 1 0.298771,-0.26237 l 7.026766,0.0233 -1.869631,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.42309,-0.371457 l 2.376365,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -0.001,0.372807 l -2.390335,2.098568 a 0.29830753,0.26365253 0.19017988 0 1 -0.42063,-0.374247 l 1.880621,-1.650501 -7.026783,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.297043,-0.264307 z"
+       d="m 81.924366,53.941614 a 0.29792138,0.26331123 0.19018588 0 1 0.298771,-0.26237 l 7.026766,0.0233 -1.869631,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.42309,-0.371457 l 2.376365,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -0.001,0.372807 l -2.390335,2.098568 a 0.29830753,0.26365253 0.19017988 0 1 -0.42063,-0.374247 l 1.880621,-1.650501 -7.026783,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.297043,-0.264307 z"
        id="path2080-5-3-7"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -255,7 +255,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="65.505936"
-       y="65.553406"
+       y="55.499229"
        id="text2410-6-3"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
@@ -264,10 +264,10 @@
          id="tspan2408-7-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
          x="65.505936"
-         y="65.553406">shell</tspan></text>
+         y="55.499229">shell</tspan></text>
     <g
        id="g2078-4-9"
-       transform="matrix(2.613735,0,0,2.1488378,-296.53556,-224.3145)"
+       transform="matrix(2.613735,0,0,2.1488378,-296.53556,-234.36873)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -280,7 +280,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
        x="22.580564"
-       y="70.281891"
+       y="59.880074"
        id="text5894-7"
        transform="scale(1.0345801,0.96657572)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -290,10 +290,10 @@
          id="tspan5892-8"
          style="stroke-width:0.162373"
          x="22.580564"
-         y="70.281891">2.</tspan></text>
+         y="59.880074">2.</tspan></text>
     <g
        id="g2066-2-6"
-       transform="matrix(0.63491484,0,0,0.59318104,22.819315,56.521331)"
+       transform="matrix(0.63491484,0,0,0.59318104,22.819315,46.467158)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -335,7 +335,7 @@
     </g>
     <g
        id="g2059-9-2"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.13773,-285.11178)"
+       transform="matrix(-2.8671262,0,0,2.5269831,288.13773,-295.16601)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -346,7 +346,7 @@
     </g>
     <path
        fill-rule="evenodd"
-       d="m 82.08127,86.628853 a 0.29792138,0.26331123 0.19018588 0 1 0.298771,-0.26237 l 7.026766,0.0233 -1.869631,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.42309,-0.371457 l 2.376365,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -10e-4,0.372807 l -2.390335,2.098568 a 0.29830753,0.26365253 0.19017988 0 1 -0.42063,-0.374247 l 1.880621,-1.650501 -7.026783,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.297043,-0.264307 z"
+       d="m 82.08127,76.57468 a 0.29792138,0.26331123 0.19018588 0 1 0.298771,-0.26237 l 7.026766,0.0233 -1.869631,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.42309,-0.371457 l 2.376365,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -10e-4,0.372807 l -2.390335,2.098568 a 0.29830753,0.26365253 0.19017988 0 1 -0.42063,-0.374247 l 1.880621,-1.650501 -7.026783,-0.0233 A 0.29792138,0.26331123 0.19018588 0 1 82.081461,76.5746 Z"
        id="path2080-5-3-7-4"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -356,7 +356,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="65.133682"
-       y="88.18647"
+       y="78.132294"
        id="text2410-6-3-7"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
@@ -365,12 +365,12 @@
          id="tspan2408-7-1-4"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
          x="65.133682"
-         y="88.18647">privesc</tspan></text>
+         y="78.132294">privesc</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
        x="22.220726"
-       y="93.697639"
+       y="83.295853"
        id="text5894-7-0"
        transform="scale(1.0345801,0.96657572)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -380,10 +380,10 @@
          id="tspan5892-8-7"
          style="stroke-width:0.162373"
          x="22.220726"
-         y="93.697639">3.</tspan></text>
+         y="83.295853">3.</tspan></text>
     <g
        id="g2066-2-4"
-       transform="matrix(0.63491484,0,0,0.59318104,23.442864,78.248946)"
+       transform="matrix(0.63491484,0,0,0.59318104,23.442864,68.194773)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -425,7 +425,7 @@
     </g>
     <g
        id="g2059-9-0"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.76101,-263.38388)"
+       transform="matrix(-2.8671262,0,0,2.5269831,288.76101,-273.43811)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -436,7 +436,7 @@
     </g>
     <path
        fill-rule="evenodd"
-       d="m 83.763143,108.35651 a 0.29792138,0.26331123 0.19018588 0 1 0.29877,-0.26237 l 7.026768,0.0233 -1.869628,-1.66297 a 0.29830772,0.26365269 0.19016688 0 1 0.423087,-0.37146 l 2.376368,2.1144 a 0.29792138,0.26331123 0.19018588 0 1 -10e-4,0.37281 l -2.390338,2.09858 a 0.29830753,0.26365253 0.19017988 0 1 -0.420627,-0.37425 l 1.880618,-1.65051 -7.026788,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.29704,-0.26431 z"
+       d="m 83.763143,98.302292 a 0.29792138,0.26331123 0.19018588 0 1 0.29877,-0.26237 l 7.026768,0.0233 -1.869628,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.423087,-0.371457 l 2.376368,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -10e-4,0.372807 l -2.390338,2.098571 a 0.29830753,0.26365253 0.19017988 0 1 -0.420627,-0.37425 l 1.880618,-1.650501 -7.026788,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.29704,-0.264307 z"
        id="path2080-5-3-7-3"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -444,7 +444,7 @@
        inkscape:export-ydpi="96" />
     <path
        fill-rule="evenodd"
-       d="m 109.13074,106.50527 a 0.26331123,0.29792138 59.948862 0 1 0.12597,-0.37714 l 6.08228,-3.51888 -2.45274,-0.49503 a 0.26365269,0.29830772 59.948843 0 1 0.17843,-0.53399 l 3.11788,0.62981 a 0.26331123,0.29792138 59.948862 0 1 0.1869,0.32257 l -1.00812,3.01688 a 0.26365253,0.29830753 59.948856 0 1 -0.55187,-0.11148 l 0.79343,-2.37306 -6.0823,3.51889 a 0.26331123,0.29792138 59.948862 0 1 -0.38973,-0.0787 z"
+       d="m 109.13074,96.451061 a 0.26331123,0.29792138 59.948862 0 1 0.12597,-0.377137 l 6.08228,-3.518859 -2.45274,-0.495027 a 0.26365269,0.29830772 59.948843 0 1 0.17843,-0.533987 l 3.11788,0.629804 a 0.26331123,0.29792138 59.948862 0 1 0.1869,0.32257 l -1.00812,3.016862 a 0.26365253,0.29830753 59.948856 0 1 -0.55187,-0.11148 l 0.79343,-2.373045 -6.0823,3.518869 a 0.26331123,0.29792138 59.948862 0 1 -0.38973,-0.0787 z"
        id="path2080-5-3-7-3-4"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -452,7 +452,7 @@
        inkscape:export-ydpi="96" />
     <path
        fill-rule="evenodd"
-       d="m 108.78305,111.43752 a 0.29792138,0.26331123 23.745031 0 1 0.37873,-0.12111 l 6.43201,2.82945 -1.04928,-2.27156 a 0.29830772,0.26365269 23.745012 0 1 0.53628,-0.17142 l 1.3334,2.88788 a 0.29792138,0.26331123 23.745031 0 1 -0.1499,0.34134 l -3.02984,0.96848 a 0.29830753,0.26365253 23.745025 0 1 -0.23601,-0.51116 l 2.38352,-0.76144 -6.43203,-2.82947 a 0.29792138,0.26331123 23.745031 0 1 -0.1667,-0.36096 z"
+       d="m 108.78305,101.38329 a 0.29792138,0.26331123 23.745031 0 1 0.37873,-0.12111 l 6.43201,2.82945 -1.04928,-2.27156 a 0.29830772,0.26365269 23.745012 0 1 0.53628,-0.17142 l 1.3334,2.88788 a 0.29792138,0.26331123 23.745031 0 1 -0.1499,0.34134 l -3.02984,0.96848 a 0.29830753,0.26365253 23.745025 0 1 -0.23601,-0.51116 l 2.38352,-0.76144 -6.43203,-2.82947 a 0.29792138,0.26331123 23.745031 0 1 -0.1667,-0.36096 z"
        id="path2080-5-3-7-3-4-7"
        style="stroke-width:0.560164"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -462,7 +462,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="65.75721"
-       y="109.91479"
+       y="99.860626"
        id="text2410-6-3-2"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
@@ -471,12 +471,12 @@
          id="tspan2408-7-1-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
          x="65.75721"
-         y="109.91479">pivot</tspan></text>
+         y="99.860626">pivot</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
        x="22.823441"
-       y="116.17622"
+       y="105.77439"
        id="text5894-7-5"
        transform="scale(1.0345801,0.96657572)"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
@@ -486,23 +486,24 @@
          id="tspan5892-8-5"
          style="stroke-width:0.162373"
          x="22.823441"
-         y="116.17622">4.</tspan></text>
+         y="105.77439">4.</tspan></text>
     <path
-       d="m 119.49368,91.816648 a 0.93812414,0.65200554 0 0 0 -0.93815,0.651997 v 9.128035 a 0.93812414,0.65200554 0 0 0 0.93815,0.652 h 5.62874 a 0.93812414,0.65200554 0 0 0 0.93812,-0.652 v -9.128035 a 0.93812414,0.65200554 0 0 0 -0.93812,-0.651997 z m 0.46905,9.128042 a 0.46906209,0.32600278 0 1 1 0,0.65199 0.46906209,0.32600278 0 0 1 0,-0.65199 z m 1.87623,0 a 0.46906209,0.32600278 0 1 1 0,0.65199 0.46906209,0.32600278 0 0 1 0,-0.65199 z m -2.34528,-8.150028 a 0.46906209,0.32600278 0 0 1 0.46905,-0.326017 h 4.6906 a 0.46907389,0.32601099 0 0 1 0,0.652017 h -4.6906 a 0.46906209,0.32600278 0 0 1 -0.46905,-0.326 z m 0.46905,0.977994 h 4.6906 a 0.46906209,0.32600278 0 0 1 0,0.651987 h -4.6906 a 0.46906209,0.32600278 0 0 1 0,-0.651987 z"
+       d="m 119.49368,81.762475 a 0.93812414,0.65200554 0 0 0 -0.93815,0.651997 v 9.128026 a 0.93812414,0.65200554 0 0 0 0.93815,0.651997 h 5.62874 a 0.93812414,0.65200554 0 0 0 0.93812,-0.651997 v -9.128026 a 0.93812414,0.65200554 0 0 0 -0.93812,-0.651997 z m 0.46905,9.128039 a 0.46906209,0.32600278 0 1 1 0,0.651984 0.46906209,0.32600278 0 0 1 0,-0.651984 z m 1.87623,0 a 0.46906209,0.32600278 0 1 1 0,0.651984 0.46906209,0.32600278 0 0 1 0,-0.651984 z m -2.34528,-8.150025 a 0.46906209,0.32600278 0 0 1 0.46905,-0.326017 h 4.6906 a 0.46907389,0.32601099 0 0 1 0,0.652017 h -4.6906 a 0.46906209,0.32600278 0 0 1 -0.46905,-0.326 z m 0.46905,0.977994 h 4.6906 a 0.46906209,0.32600278 0 0 1 0,0.651987 h -4.6906 a 0.46906209,0.32600278 0 0 1 0,-0.651987 z"
        id="path19229"
        style="stroke-width:0.782087"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       d="m 122.68307,111.6199 a 0.53379508,0.63044633 0 0 1 0.53379,-0.63044 h 3.20277 a 0.53379508,0.63044633 0 0 1 0.53378,0.63044 v 8.8263 a 0.53379508,0.63044633 0 0 1 -0.53378,0.63045 h -3.20277 a 0.53379508,0.63044633 0 0 1 -0.53379,-0.63045 z m 0.53379,8.51108 a 0.26689755,0.31522318 0 1 0 0.53378,0 0.26689755,0.31522318 0 0 0 -0.53378,0 z m 1.06759,0 a 0.26689755,0.31522318 0 1 0 0.53379,0 0.26689755,0.31522318 0 0 0 -0.53379,0 z m -0.8007,-8.51108 a 0.26690334,0.31523 0 0 0 0,0.63046 h 2.66898 a 0.26690334,0.31523 0 0 0 0,-0.63046 z m -0.26689,1.57613 a 0.26689755,0.31522318 0 0 0 0.26689,0.31523 h 2.66898 a 0.26689909,0.315225 0 0 0 0,-0.63045 h -2.66898 a 0.26689755,0.31522318 0 0 0 -0.26689,0.31522 z m -4.00346,-0.94567 a 0.80069263,0.94566951 0 0 0 -0.8007,0.94567 v 4.41315 a 0.80069263,0.94566951 0 0 0 0.8007,0.94568 h 2.40207 v 1.2609 h -0.26689 a 0.26689755,0.31522318 0 0 0 0,0.63044 h 0.80068 v -2.52179 h -2.93586 a 0.26689755,0.31522318 0 0 1 -0.26691,-0.31523 v -4.41315 a 0.26689755,0.31522318 0 0 1 0.26691,-0.31522 h 2.93586 v -0.63045 z"
+       d="m 122.68307,101.56567 a 0.53379508,0.63044633 0 0 1 0.53379,-0.63044 h 3.20277 a 0.53379508,0.63044633 0 0 1 0.53378,0.63044 v 8.8263 a 0.53379508,0.63044633 0 0 1 -0.53378,0.63045 h -3.20277 a 0.53379508,0.63044633 0 0 1 -0.53379,-0.63045 z m 0.53379,8.51108 a 0.26689755,0.31522318 0 1 0 0.53378,0 0.26689755,0.31522318 0 0 0 -0.53378,0 z m 1.06759,0 a 0.26689755,0.31522318 0 1 0 0.53379,0 0.26689755,0.31522318 0 0 0 -0.53379,0 z m -0.8007,-8.51108 a 0.26690334,0.31523 0 0 0 0,0.63046 h 2.66898 a 0.26690334,0.31523 0 0 0 0,-0.63046 z m -0.26689,1.57613 a 0.26689755,0.31522318 0 0 0 0.26689,0.31523 h 2.66898 a 0.26689909,0.315225 0 0 0 0,-0.63045 h -2.66898 a 0.26689755,0.31522318 0 0 0 -0.26689,0.31522 z m -4.00346,-0.94567 a 0.80069263,0.94566951 0 0 0 -0.8007,0.94567 v 4.41315 a 0.80069263,0.94566951 0 0 0 0.8007,0.94568 h 2.40207 v 1.2609 h -0.26689 a 0.26689755,0.31522318 0 0 0 0,0.63044 h 0.80068 v -2.52179 h -2.93586 a 0.26689755,0.31522318 0 0 1 -0.26691,-0.31523 v -4.41315 a 0.26689755,0.31522318 0 0 1 0.26691,-0.31522 h 2.93586 v -0.63045 z"
        id="path19238"
        style="stroke-width:0.580111"
        inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
-       id="g25209">
+       id="g25209"
+       transform="translate(0,-10.054167)">
       <g
          id="g2078-4-9-6"
          transform="matrix(2.613735,0,0,2.1488378,-295.75511,-179.95357)"
@@ -521,7 +522,7 @@
     </g>
     <g
        id="g25209-6"
-       transform="translate(-0.44074046,-22.308474)">
+       transform="translate(-0.44074046,-32.362647)">
       <g
          id="g2078-4-9-6-8"
          transform="matrix(2.613735,0,0,2.1488378,-295.75511,-179.95357)"

@@ -161,34 +161,6 @@ Note:
 
 ---
 
-### Hardware based attacks
-
-* Malicious USB HID devices ([1](https://www.youtube.com/watch?v=Y1xzkHOWFkA))
-* Thunderbolt DMA
-* Lan plugs
-* [Fake](https://www.forbes.com/sites/leemathews/2021/06/18/cybercrooks-are-mailing-users-fake-ledger-devices-to-steal-their-cryptocurrency/?sh=3faa7d6adbad) Ledger devices
-
----
-
-[![OMG](https://img.youtube.com/vi/Y1xzkHOWFkA/0.jpg)](https://www.youtube.com/watch?v=Y1xzkHOWFkA)
-
----
-
-### DuckyScript
-
-```
-REM Type Hello World into Windows notepad.
-DELAY 1000
-GUI r
-DELAY 100
-STRING c:\windows\notepad.exe
-ENTER
-DELAY 1000
-STRING Hello World
-```
-
----
-
 ### Core Principles of influence
 
 * Liking
@@ -221,6 +193,34 @@ Note:
 This deals with the basic problem of verifying identity
 
 See https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
+
+---
+
+### Hardware based attacks
+
+* Malicious USB HID devices ([1](https://www.youtube.com/watch?v=Y1xzkHOWFkA))
+* Thunderbolt DMA
+* Lan plugs
+* [Fake](https://www.forbes.com/sites/leemathews/2021/06/18/cybercrooks-are-mailing-users-fake-ledger-devices-to-steal-their-cryptocurrency/?sh=3faa7d6adbad) Ledger devices
+
+---
+
+[![OMG](https://img.youtube.com/vi/Y1xzkHOWFkA/0.jpg)](https://www.youtube.com/watch?v=Y1xzkHOWFkA)
+
+---
+
+### DuckyScript
+
+```
+REM Type Hello World into Windows notepad.
+DELAY 1000
+GUI r
+DELAY 100
+STRING c:\windows\notepad.exe
+ENTER
+DELAY 1000
+STRING Hello World
+```
 
 ---
 
@@ -329,9 +329,14 @@ Things to watch out for:
 
 ---
 
-### Complexity
+### Attacks
 
-![complexity](images/password_strength.png)
+* Remote (using dumps):
+  * Stuffing
+  * Spraying
+* Local:
+  * Hash cracking (John, Hashcat)
+  * Wordlists/permutations
 
 ---
 
@@ -340,7 +345,7 @@ Things to watch out for:
 * Have high entropy
 * Unique per domain/use case
 * Use a manager
-* Verified by HIBP
+* Verified (HIBP)
 
 Note:
 * mention Travis [post](https://lock.cmpxchg8b.com/passmgrs.html?m=1) on the issues with browser plugins,
@@ -349,6 +354,13 @@ Note:
 * Password manager, can be air gapped (most secure hardest to use) or online (prefer not as a browser plugin)
 
 ---
+
+### Complexity
+
+![complexity](images/password_strength.png)
+
+---
+
 ### 2FA
 
 * Prefer hardware (Yubikey)
@@ -360,6 +372,7 @@ Note:
 * App codes are exposed to [interception](https://attack.mitre.org/techniques/T1111/)
 * [SMS](https://www.forbes.com/sites/zakdoffman/2020/10/11/apple-iphone-imessage-and-android-messages-sms-passcode-security-update/?sh=36658fc02ede) vuln to social engineering, MITM, SIM swapping.
 * Biometric susceptible as [well](https://security.stackexchange.com/questions/198512/how-secure-is-the-fingerprint-sensor-in-the-pixel-3)
+
 ---
 
 ### Not safe
@@ -377,19 +390,8 @@ Note:
 
 ---
 
-### Attacks
-
-* Remote (using dumps):
-  * Stuffing
-  * Spraying
-* Local:
-  * Hash cracking (John, Hashcat)
-  * Wordlists/permutations
-
----
-
-
 # Seconomics
+
 ---
 
 ### Risk vs cost vs ux
@@ -402,7 +404,7 @@ We assume all are measured using a normalized common scale.
 
 Cost is either financial or increased overhead
 
-From a certain point cost has diminishing effect on risk (point a)
+From a certain point cost has diminishing effect on risk (point a) as we get into a flat line
 
 From a certain point usability is suffering (point b)
 

@@ -6,8 +6,8 @@
 
 * Motivation
 * Framework of thought
-* Getting into the Attacker mindset
-* Defense techniques
+* Threat analysis
+* Countermeasures
 * Passwords, secrets and lies
 * Seconomics
 
@@ -28,17 +28,21 @@ We aim to provide the following:
 2. Practical tools for increasing security posture
 
 3. Increase awareness of what is possible
+
+---
+
+### Opertional Security ([NIST](https://csrc.nist.gov/glossary/term/operations_security))
+
+"Systematic and proven process by which potential adversaries can be denied information about capabilities and intentions by identifying, controlling, and protecting generally unclassified evidence of the planning and execution of sensitive activities.
+
+The process involves five steps: identification of critical information, analysis of threats, analysis of vulnerabilities, assessment of risks, and application of appropriate countermeasures."
+
+
 ---
 
 # Framework of thought
 
 Note:
-
----
-
-### Security
-
-"The state of being free from danger or threat."
 
 ---
 
@@ -99,9 +103,10 @@ Legal based security
 
 ---
 
-# Getting into the Attacker mindset
+# Threat analysis
 
 ![hacker](images/hacker.png)
+
 ---
 
 ### Actors
@@ -115,7 +120,7 @@ Legal based security
 
 ### Scope
 
-* Single Targeted (spear phishing)
+* Single Targeted (spear phishing/vishing)
 * Group Targeted (watering hole)
 * Wide net (automated, large scale)
 
@@ -128,9 +133,10 @@ Note:
 * Botnets networks offer another example of large scale automated attack
 
 * Another [example](https://www.proofpoint.com/us/blog/threat-insight/i-knew-you-were-trouble-ta456-targets-defense-contractor-alluring-social-media) of a targeted attack
+
 ---
 
-### Peneration flow
+### Penetration flow
 
 ![penetration](images/penetration-flow.png)
 
@@ -161,7 +167,7 @@ Note:
 
 ---
 
-### Core Principles of influence
+### Social Principles of influence
 
 * Liking
 * Social Proof
@@ -171,13 +177,32 @@ Note:
 Note:
 
 Examples per principle:
-* Reciprocity: John gave me access when I needed it
 * Liking: attractive profile picture
 * Social Proof:  A lot of likes on a post
 * Authority: An email from facebook asking us to verify ourself using an identity document
 * Scarcity: a rare opportunity, if you don't act now you will lose access
-* Commitment in Consistency: I'm true to my words, if I said ill do something I will do it
-* Unity: We both play hockey/shared a school/like fishing
+
+These can be used in a variety of contexts, from phising to vishing
+
+---
+
+### Biases
+
+* Availability bias
+* Confirmation bias
+* Optimism bias (WYSIATI)
+
+Note:
+
+See [this](https://www.mcafee.com/blogs/other-blogs/executive-perspectives/through-your-minds-eye-what-biases-are-impacting-your-security-posture/)
+
+* Availability bias - we react more to recent known events (like in the news) rather to those who have high risk factor.
+
+* Confirmation bias - we tend to consume information that match our belief, neglecting views that don't match out perception.
+
+* Optimism bias (or the optimistic bias) is a cognitive bias that causes someone to believe that they themselves are less likely to experience a negative event. It is also known as unrealistic optimism or comparative optimism.
+
+* What You See Is All There Is (WYSIATI). This theory states that when the mind makes decisions, it deals primarily with Known Knowns, phenomena it has observed already. It rarely considers Known Unknowns.
 
 ---
 
@@ -209,31 +234,15 @@ See https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
 
 ---
 
-### DuckyScript
-
-```
-REM Type Hello World into Windows notepad.
-DELAY 1000
-GUI r
-DELAY 100
-STRING c:\windows\notepad.exe
-ENTER
-DELAY 1000
-STRING Hello World
-```
-
----
-
-# Defense techniques
+# Countermeasures
 
 ![shield](images/shield.png)
+
 ---
 
-### Compartmentalize
+### Compartmentalization
 
-* Sandbox different runtimes
-* Separate by use case
-* Use Air gapped devices
+Sandbox different activities into different runtime environments while keeping least privilege access to common resources.
 
 ---
 
@@ -258,10 +267,11 @@ Note:
 ### Mobile hardening
 
 * Choose Reputable vendor
-* Use >= 2 phones (per use case)
+* Use >= 2 phones
 * Reset/Restart once in a while
 * Deprecate non-updatable devices
 * Minimize apps/permissions
+* Avoid sideloading/root
 * Use browser when in doubt
 
 
@@ -297,9 +307,9 @@ Note:
 
 ### Verify
 
-* You can't prove* security you can only refute it:
+You can't prove* security you can only refute it:
   * Check activity logs.
-  * Monitor your network/services (ELK/Pfsense)
+  * Monitor your network/services (Pfelk/Pfsense)
   * Look for things which are out of place*
 
 Note:
@@ -342,13 +352,13 @@ Things to watch out for:
 
 ### Passwords
 
-* Have high entropy
-* Unique per domain/use case
-* Use a manager
-* Verified (HIBP)
+* Complex (generated)
+* Unique (per domain/use case)
+* Stored securely
+* Tracked (HIBP)
 
 Note:
-* mention Travis [post](https://lock.cmpxchg8b.com/passmgrs.html?m=1) on the issues with browser plugins,
+* Mention Travis [post](https://lock.cmpxchg8b.com/passmgrs.html?m=1) on the issues with browser plugins,
 * Choose Wisely [Kaspersky Password Manager Vuln](https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html)
 * Recommended tools: BW and pass, pwgen, keepass (again prefer those that support some form of hardware 2FA).
 * Password manager, can be air gapped (most secure hardest to use) or online (prefer not as a browser plugin)
@@ -369,6 +379,7 @@ Note:
 * Biometric (accuracy)
 
 Note:
+
 * App codes are exposed to [interception](https://attack.mitre.org/techniques/T1111/)
 * [SMS](https://www.forbes.com/sites/zakdoffman/2020/10/11/apple-iphone-imessage-and-android-messages-sms-passcode-security-update/?sh=36658fc02ede) vuln to social engineering, MITM, SIM swapping.
 * Biometric susceptible as [well](https://security.stackexchange.com/questions/198512/how-secure-is-the-fingerprint-sensor-in-the-pixel-3)
@@ -384,7 +395,6 @@ Note:
 Note:
 
 * Pins are usually a weak form of a password (4-6 range), should be avoided in favor of password where possible
-
 * Secret questions, use random text answers
 * Patterns, can be gleaned easily by someone watching hard to randomize (selection bias, folks start from upper left corner)
 
@@ -416,7 +426,7 @@ From a certain point usability is suffering (point b)
 
 * Defense is a risk/cost/ux balancing act.
 
-* Induction vs deduction (The Turkey).
+* Induction vs deduction (The Turkey problem).
 
 Note:
 
@@ -428,6 +438,5 @@ Extermistan vs Mediocristan (std deviation bell curve vs likelihood of extreme e
 
 ---
 
-### The end, stay safe
-
-Questions?
+# The end
+##### stay safe!

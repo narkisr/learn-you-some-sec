@@ -259,7 +259,19 @@ Note: see https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding at
 
 ### Qubes demo
 
-Note: provides cilpboard protection, network isolation, local privesc mitigation (excluding VM escapes!)
+<video width="320" height="240" controls>
+  <source src="./video/qubes.mkv" type="video/mp4">
+</video>
+
+
+Note:
+
+* Follow basic menu strucuture (VM per usage type)
+* Demo vault VM zero network access
+* Simple browser interaction
+* Template VM notion
+* Clipboard protection
+* Internal file transfer
 
 ---
 

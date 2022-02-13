@@ -174,10 +174,6 @@ Note:
 
 ---
 
-![omg-vs-legit](images/omg-vs-legit.png)
-
----
-
 ### DuckyScript
 
 ```

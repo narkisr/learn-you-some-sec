@@ -19,23 +19,20 @@
 (keeping the bad guys at bay)
 </script></section><section  data-markdown><script type="text/template">### The plan
 
-* Y?
+* Motivation
 * Framework of thought
-* The Attacker mindset
-* Protecting
+* Getting into the Attacker mindset
+* Defense techniques
 * Passwords, secrets and lies
 * Seconomics
 </script></section><section  data-markdown><script type="text/template">
-# Y?
+# Motivation
 
-<aside class="notes"><p>Motivation:</p>
-<ul>
-<li><p>The increased use of an online persona in the last decades</p>
-</li>
-<li><p>The increased sophistication of online attacks</p>
-</li>
-</ul>
-<p>We aim to provide the following:</p>
+* The increased adoption of an online services
+* Sophistication of online attacks
+* Folks rely on us
+
+<aside class="notes"><p>We aim to provide the following:</p>
 <ol>
 <li><p>A framework of thinking on personal security</p>
 </li>
@@ -92,7 +89,7 @@
 <p>Close source security</p>
 <p>Legal based security</p>
 </aside></script></section><section  data-markdown><script type="text/template">
-# The Attacker mindset
+# Getting into the Attacker mindset
 
 ![hacker](images/hacker.png)</script></section><section  data-markdown><script type="text/template">
 ### Actors
@@ -101,16 +98,6 @@
    * Organized crime
    * Hacktivists
    * Script kiddies
-</script></section><section  data-markdown><script type="text/template">
-
-### Motivation
-
-  * Financial
-  * Ideological
-  * Military
-  * Extortion
-  * Industrial
-
 </script></section><section  data-markdown><script type="text/template">
 ### Scope
 
@@ -154,17 +141,42 @@
 <li>We drop to standard shell on the machine</li>
 </ol>
 </aside></script></section><section  data-markdown><script type="text/template">
+### Core Principles of influence
+
+* Liking
+* Social Proof
+* Authority
+* Scarcity
+
+<aside class="notes"><p>Examples per principle:</p>
+<ul>
+<li>Reciprocity: John gave me access when I needed it</li>
+<li>Liking: attractive profile picture</li>
+<li>Social Proof:  A lot of likes on a post</li>
+<li>Authority: An email from facebook asking us to verify ourself using an identity document</li>
+<li>Scarcity: a rare opportunity, if you don&#39;t act now you will lose access</li>
+<li>Commitment in Consistency: I&#39;m true to my words, if I said ill do something I will do it</li>
+<li>Unity: We both play hockey/shared a school/like fishing</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Spoofing
+
+* Email from header
+* Caller ids (inc SMS)
+* Urls ([са.com](https://www.xn--80a7a.com/))
+* Look&feel
+
+<aside class="notes"><p>This deals with the basic problem of verifying identity</p>
+<p>See <a href="https://en.wikipedia.org/wiki/IDN_homograph_attack">https://en.wikipedia.org/wiki/IDN_homograph_attack</a> for URL encoding attacks</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ### Hardware based attacks
 
 * Malicious USB HID devices ([1](https://www.youtube.com/watch?v=Y1xzkHOWFkA))
 * Thunderbolt DMA
 * Lan plugs
-* Airtags tracking
 * [Fake](https://www.forbes.com/sites/leemathews/2021/06/18/cybercrooks-are-mailing-users-fake-ledger-devices-to-steal-their-cryptocurrency/?sh=3faa7d6adbad) Ledger devices
 </script></section><section  data-markdown><script type="text/template">
 [![OMG](https://img.youtube.com/vi/Y1xzkHOWFkA/0.jpg)](https://www.youtube.com/watch?v=Y1xzkHOWFkA)
-</script></section><section  data-markdown><script type="text/template">
-![omg-vs-legit](images/omg-vs-legit.png)
 </script></section><section  data-markdown><script type="text/template">
 ### DuckyScript
 
@@ -179,45 +191,14 @@ DELAY 1000
 STRING Hello World
 ```
 </script></section><section  data-markdown><script type="text/template">
-### The 7 principles (influence)
-
-* Reciprocity
-* Liking
-* Social Proof
-* Authority
-* Scarcity
-* Commitment in Consistency
-* Unity
-
-<aside class="notes"><p>Examples per principle:</p>
-<ul>
-<li>Reciprocity: John gave me access when I needed it</li>
-<li>Liking: attractive profile picture</li>
-<li>Social Proof:  A lot of likes on a post</li>
-<li>Authority: ATO fake calls</li>
-<li>Scarcity: a rare opportunity</li>
-<li>Commitment in Consistency:</li>
-<li>Unity: We both play hockey</li>
-</ul>
-</aside></script></section><section  data-markdown><script type="text/template">
-### Identity Deception
-
-* Email from header
-* Caller ids (inc SMS)
-* Urls ([са.com](https://www.xn--80a7a.com/))
-* Faking a [reboot!](https://www.schneier.com/blog/archives/2022/01/faking-an-iphone-reboot.html)
-* Look&feel
-
-<aside class="notes"><p>see <a href="https://en.wikipedia.org/wiki/IDN_homograph_attack">https://en.wikipedia.org/wiki/IDN_homograph_attack</a> for URL encoding attacks</p>
-</aside></script></section><section  data-markdown><script type="text/template">
-# Protecting
+# Defense techniques
 
 ![shield](images/shield.png)</script></section><section  data-markdown><script type="text/template">
 ### Compartmentalize
 
-* Sandbox heavily
+* Sandbox different runtimes
+* Separate by use case
 * Use Air gapped devices
-* Separate instances by use
 </script></section><section  data-markdown><script type="text/template">
 ### Qubes demo
 
@@ -235,29 +216,20 @@ STRING Hello World
 <li>Internal file transfer</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### General OS hardening
-
-* Remove unused services
-* Un-install unused apps
-* Don't run as root
-* Limit expose ports (firewall or bind to local)
-</script></section><section  data-markdown><script type="text/template">
-### Mobile hardening (1)
+### Mobile hardening
 
 * Choose Reputable vendor
 * Use >= 2 phones (per use case)
-* No root
-</script></section><section  data-markdown><script type="text/template">
-### Mobile hardening (2)
-
 * Reset/Restart once in a while
 * Deprecate non-updatable devices
-* Minimize installed apps and permissions
+* Minimize apps/permissions
 * Use browser when in doubt
+
 
 <aside class="notes"><ul>
 <li>Ditch when no current and trusted ROM is available beyond official support</li>
 <li>Track permission with time (they can change)</li>
+<li>Faking a <a href="https://www.schneier.com/blog/archives/2022/01/faking-an-iphone-reboot.html">reboot!</a></li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### Browser hardening
@@ -265,34 +237,31 @@ STRING Hello World
 * Minimal extensions set
 * Upgrade constantly
 * Don't trust PDF viewer blindly
-* Run single site per sandbox (i.e Qubes)
+* Single site per instance (i.e Qubes)
 </script></section><section  data-markdown><script type="text/template">
 ### Network hardening
 
-* segmented networks (VLAN's)
+* Segment networks (VLAN's)
 * Monitor traffic
-* block based onGeo/reputation
-* Don't trust WIFI security
+* Block based on Geo/Reputation
+* Don't trust WIFI
 
 <aside class="notes"><ul>
-<li>One option of increasing security on wifi is using a mesh VPN solution like Nebula</li>
+<li>Use pfblockerng/pi-hole</li>
+<li>One option of increasing security on WIFI is using a mesh VPN solution like Nebula</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Trust
-
-* Open source
-* Prefer audited services
-* Understand permissions
-* Frequent patch cycles
-</script></section><section  data-markdown><script type="text/template">
 ### Verify
 
-* You can't prove security you can only refute it:
+* You can't prove* security you can only refute it:
   * Check activity logs.
   * Monitor your network/services (ELK/Pfsense)
   * Look for things which are out of place*
 
-<aside class="notes"><p>Things to watch out for:</p>
+<aside class="notes"><ul>
+<li>In some specific contexts <a href="https://en.wikipedia.org/wiki/Provable_security">proving</a> security is possible (but not in the messy general case that we are in)</li>
+</ul>
+<p>Things to watch out for:</p>
 <ul>
 <li>Odd DNS lookups</li>
 <li>Email inbox filters, read emails</li>
@@ -310,31 +279,6 @@ STRING Hello World
 </script></section><section  data-markdown><script type="text/template">
 # Passwords secrets and lies!
 </script></section><section  data-markdown><script type="text/template">
-### Complexity
-
-![complexity](images/password_strength.png)
-</script></section><section  data-markdown><script type="text/template">
-### Passwords
-
-* Highly complex
-* Unique per domain/use case
-* Stored online (not a plugin)/gapped offline.
-* Have I been pawned
-
-<aside class="notes"><ul>
-<li>mention Travis <a href="https://lock.cmpxchg8b.com/passmgrs.html?m=1">post</a> on the issues with browser plugins,</li>
-<li>Choose Wisely <a href="https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html">Kaspersky Password Manager Vuln</a></li>
-<li>Recommended tools: BW and pass, pwgen, keepass (again prefer those that support some form of hardware 2FA).</li>
-</ul>
-</aside></script></section><section  data-markdown><script type="text/template">
-### Tidbits
-
-* Pins
-* Secret questions (not so secret)
-* Patterns
-
-<aside class="notes"><p>Pins are usually a weak form of a password (4-6 range)</p>
-</aside></script></section><section  data-markdown><script type="text/template">
 ### Attacks
 
 * Remote (using dumps):
@@ -344,31 +288,63 @@ STRING Hello World
   * Hash cracking (John, Hashcat)
   * Wordlists/permutations
 </script></section><section  data-markdown><script type="text/template">
+### Passwords
+
+* Have high entropy
+* Unique per domain/use case
+* Use a manager
+* Verified (HIBP)
+
+<aside class="notes"><ul>
+<li>mention Travis <a href="https://lock.cmpxchg8b.com/passmgrs.html?m=1">post</a> on the issues with browser plugins,</li>
+<li>Choose Wisely <a href="https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html">Kaspersky Password Manager Vuln</a></li>
+<li>Recommended tools: BW and pass, pwgen, keepass (again prefer those that support some form of hardware 2FA).</li>
+<li>Password manager, can be air gapped (most secure hardest to use) or online (prefer not as a browser plugin)</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Complexity
+
+![complexity](images/password_strength.png)
+</script></section><section  data-markdown><script type="text/template">
 ### 2FA
 
 * Prefer hardware (Yubikey)
-* App Codes interception
-* SMS sucks (SIM swapping and interception)
-* Biometric not so [much](https://security.stackexchange.com/questions/198512/how-secure-is-the-fingerprint-sensor-in-the-pixel-3)</script></section><section  data-markdown><script type="text/template">
-# Seconomics</script></section><section  data-markdown><script type="text/template">
-### stats
+* App Codes (interception)
+* SMS sucks (swapping/interception)
+* Biometric (accuracy)
 
-* 20142 vuln in 2021, 2984 in 2022
-* Oldest CVE discovered as 21yo
-* 19K out of 170k are critical (11%)
-
-
-<aside class="notes"><p>Based on <a href="https://www.comparitech.com/blog/information-security/cybersecurity-vulnerability-statistics/">https://www.comparitech.com/blog/information-security/cybersecurity-vulnerability-statistics/</a></p>
-<p>CVE critically stats <a href="https://www.cvedetails.com/">https://www.cvedetails.com/</a></p>
+<aside class="notes"><ul>
+<li>App codes are exposed to <a href="https://attack.mitre.org/techniques/T1111/">interception</a></li>
+<li><a href="https://www.forbes.com/sites/zakdoffman/2020/10/11/apple-iphone-imessage-and-android-messages-sms-passcode-security-update/?sh=36658fc02ede">SMS</a> vuln to social engineering, MITM, SIM swapping.</li>
+<li>Biometric susceptible as <a href="https://security.stackexchange.com/questions/198512/how-secure-is-the-fingerprint-sensor-in-the-pixel-3">well</a></li>
+</ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Risk vs cost
+### Not safe
+
+* Pins
+* Secret questions
+* Patterns
+
+<aside class="notes"><ul>
+<li><p>Pins are usually a weak form of a password (4-6 range), should be avoided in favor of password where possible</p>
+</li>
+<li><p>Secret questions, use random text answers</p>
+</li>
+<li><p>Patterns, can be gleaned easily by someone watching hard to randomize (selection bias, folks start from upper left corner)</p>
+</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+# Seconomics
+</script></section><section  data-markdown><script type="text/template">
+### Risk vs cost vs ux
 
 ![risk-vs-cost](images/risk-vs-cost.png)
-</script></section><section  data-markdown><script type="text/template">
-### UX vs Risk
 
-![ux-vs-risk](images/ux-vs-risk.png)
-</script></section><section  data-markdown><script type="text/template">
+<aside class="notes"><p>We assume all are measured using a normalized common scale.</p>
+<p>Cost is either financial or increased overhead</p>
+<p>From a certain point cost has diminishing effect on risk (point a) as we get into a flat line</p>
+<p>From a certain point usability is suffering (point b)</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ### Asymmetrystan
 
 * Attackers have the advantage.

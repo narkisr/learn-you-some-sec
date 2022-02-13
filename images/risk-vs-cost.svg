@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="151.06253mm"
+   height="112.18061mm"
+   viewBox="0 0 151.06253 112.18061"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -27,55 +27,98 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.1283372"
-     inkscape:cx="202.95351"
-     inkscape:cy="284.93255"
+     inkscape:cx="234.41574"
+     inkscape:cy="218.46306"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="439"
+     inkscape:window-y="1080"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-51.770705,-17.676313)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 51.902993,20.31906 0.698125,92.40542 129.231972,-0.14786 v 0 0"
+       d="m 61.427999,28.785732 0.698125,92.405468 129.232026,-0.14786 v 0 0"
        id="path3547" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 57.624556,23.594758 c 0,0 27.229536,37.884693 42.795774,53.160401 12.02248,11.798096 80.18334,11.670203 80.18334,11.670203"
+       d="m 67.149562,32.06143 c 0,0 27.229536,37.884693 42.795828,53.160401 12.02248,11.798096 80.18334,11.670203 80.18334,11.670203"
        id="path13480"
        sodipodi:nodetypes="csc" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.272997px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 58.99094,104.77598 c 0,0 17.693904,-26.656103 41.14303,-34.618619 8.1957,-2.782978 70.72106,-43.054329 79.85045,-49.364773 l 1.92002,-1.327162 v 0"
-       id="path13952"
-       sodipodi:nodetypes="csscc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="54.531582"
-       y="108.65987"
+       x="64.056587"
+       y="117.12656"
        id="text17352"><tspan
          sodipodi:role="line"
          id="tspan17350"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="54.531582"
-         y="108.65987">cost</tspan></text>
+         x="64.056587"
+         y="117.12656">cost</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="54.790703"
-       y="23.000834"
+       x="64.315712"
+       y="31.467506"
        id="text17352-3"><tspan
          sodipodi:role="line"
          id="tspan17350-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="54.790703"
-         y="23.000834">risk</tspan></text>
+         x="64.315712"
+         y="31.467506">risk</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="72.966354"
+       y="28.313398"
+       id="text17352-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan17350-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+         x="72.966354"
+         y="28.313398">ux</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.43256"
+       y="90.48394"
+       id="text17352-3-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan17350-6-6-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+         x="107.43256"
+         y="90.48394">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="150.16405"
+       y="99.276688"
+       id="text17352-3-3-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan17350-6-6-5-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+         x="150.16405"
+         y="99.276688">b</tspan></text>
+    <path
+       style="fill:none;stroke:#5b68fc;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 72.661415,110.53716 c 0,0 23.301338,-33.896668 38.966625,-46.811318 19.46857,-16.050181 66.34459,-36.443069 66.34459,-36.443069 v 0"
+       id="path2322"
+       sodipodi:nodetypes="cacc" />
+    <path
+       style="fill:none;stroke:#48c057;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 75.760186,29.586765 C 101.60378,70.572344 145.18675,91.852197 187.3784,114.6776"
+       id="path2324"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

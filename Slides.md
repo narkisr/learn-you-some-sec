@@ -4,25 +4,22 @@
 ---
 ### The plan
 
-* Y?
+* Motivation
 * Framework of thought
 * The Attacker mindset
-* Protecting
+* Protection guidelines
 * Passwords, secrets and lies
 * Seconomics
 
 ---
 
-# Y?
+# Motivation
+
+* The increased adoption of an online services
+* Sophistication of online attacks
+* Folks rely on us
 
 Note:
-
-Motivation:
-
-* The increased use of an online persona in the last decades
-
-* The increased sophistication of online attacks
-
 
 We aim to provide the following:
 
@@ -116,18 +113,6 @@ Legal based security
 
 ---
 
-
-### Motivation
-
-  * Financial
-  * Ideological
-  * Military
-  * Extortion
-  * Industrial
-
-
----
-
 ### Scope
 
 * Single Targeted (spear phishing)
@@ -181,7 +166,6 @@ Note:
 * Malicious USB HID devices ([1](https://www.youtube.com/watch?v=Y1xzkHOWFkA))
 * Thunderbolt DMA
 * Lan plugs
-* Airtags tracking
 * [Fake](https://www.forbes.com/sites/leemathews/2021/06/18/cybercrooks-are-mailing-users-fake-ledger-devices-to-steal-their-cryptocurrency/?sh=3faa7d6adbad) Ledger devices
 
 ---
@@ -237,14 +221,13 @@ Examples per principle:
 * Email from header
 * Caller ids (inc SMS)
 * Urls ([са.com](https://www.xn--80a7a.com/))
-* Faking a [reboot!](https://www.schneier.com/blog/archives/2022/01/faking-an-iphone-reboot.html)
 * Look&feel
 
 Note: see https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
 
 ---
 
-# Protecting
+# Protection guidelines
 
 ![shield](images/shield.png)
 ---
@@ -302,6 +285,7 @@ Note:
 Note:
 * Ditch when no current and trusted ROM is available beyond official support
 * Track permission with time (they can change)
+* Faking a [reboot!](https://www.schneier.com/blog/archives/2022/01/faking-an-iphone-reboot.html)
 
 ---
 
@@ -318,12 +302,13 @@ Note:
 
 * segmented networks (VLAN's)
 * Monitor traffic
-* block based onGeo/reputation
+* block based on Geo/Reputation
 * Don't trust WIFI security
 
 Note:
 
-* One option of increasing security on wifi is using a mesh VPN solution like Nebula
+* Use pfblockerng/pi-hole
+* One option of increasing security on WIFI is using a mesh VPN solution like Nebula
 
 ---
 
@@ -376,27 +361,43 @@ Things to watch out for:
 
 ### Passwords
 
-* Highly complex
+* Have high entropy
 * Unique per domain/use case
-* Stored online (not a plugin)/gapped offline.
-* Have I been pawned
+* Use a manager
+* Verified by HIBP
 
 Note:
 * mention Travis [post](https://lock.cmpxchg8b.com/passmgrs.html?m=1) on the issues with browser plugins,
 * Choose Wisely [Kaspersky Password Manager Vuln](https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html)
 * Recommended tools: BW and pass, pwgen, keepass (again prefer those that support some form of hardware 2FA).
+* Password manager, can be air gapped (most secure hardest to use) or online (prefer not as a browser plugin)
 
 ---
+### 2FA
 
-### Tidbits
+* Prefer hardware (Yubikey)
+* App Codes (interception)
+* SMS sucks (swapping/interception)
+* Biometric (accuracy)
+
+Note:
+* App codes are exposed to [interception](https://attack.mitre.org/techniques/T1111/)
+* [SMS](https://www.forbes.com/sites/zakdoffman/2020/10/11/apple-iphone-imessage-and-android-messages-sms-passcode-security-update/?sh=36658fc02ede) vuln to social engineering, MITM, SIM swapping.
+* Biometric susceptible as [well](https://security.stackexchange.com/questions/198512/how-secure-is-the-fingerprint-sensor-in-the-pixel-3)
+---
+
+### Not safe
 
 * Pins
-* Secret questions (not so secret)
+* Secret questions
 * Patterns
 
 Note:
 
-Pins are usually a weak form of a password (4-6 range)
+* Pins are usually a weak form of a password (4-6 range), should be avoided in favor of password where possible
+
+* Secret questions, use random text answers
+* Patterns, can be gleaned easily by someone watching hard to randomize (selection bias, folks start from upper left corner)
 
 ---
 
@@ -411,13 +412,6 @@ Pins are usually a weak form of a password (4-6 range)
 
 ---
 
-### 2FA
-
-* Prefer hardware (Yubikey)
-* App Codes interception
-* SMS sucks (SIM swapping and interception)
-* Biometric not so [much](https://security.stackexchange.com/questions/198512/how-secure-is-the-fingerprint-sensor-in-the-pixel-3)
----
 
 # Seconomics
 ---

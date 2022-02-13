@@ -268,11 +268,11 @@ Note:
 
 * Choose Reputable vendor
 * Use >= 2 phones
-* Reset/Restart once in a while
-* Deprecate non-updatable devices
+* Reset/Restart once in a while.
+* Deprecate out of support devices.
 * Minimize apps/permissions
-* Avoid sideloading/root
-* Use browser when in doubt
+* Avoid sideloading/root.
+* Use browser when in doubt.
 
 
 Note:

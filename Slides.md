@@ -6,8 +6,8 @@
 
 * Motivation
 * Framework of thought
-* The Attacker mindset
-* Protection guidelines
+* Getting into the Attacker mindset
+* Defense techniques
 * Passwords, secrets and lies
 * Seconomics
 
@@ -99,7 +99,7 @@ Legal based security
 
 ---
 
-# The Attacker mindset
+# Getting into the Attacker mindset
 
 ![hacker](images/hacker.png)
 ---
@@ -193,15 +193,12 @@ STRING Hello World
 
 ---
 
-### The 7 principles (influence)
+### Core Principles of influence
 
-* Reciprocity
 * Liking
 * Social Proof
 * Authority
 * Scarcity
-* Commitment in Consistency
-* Unity
 
 Note:
 
@@ -209,34 +206,38 @@ Examples per principle:
 * Reciprocity: John gave me access when I needed it
 * Liking: attractive profile picture
 * Social Proof:  A lot of likes on a post
-* Authority: ATO fake calls
-* Scarcity: a rare opportunity
-* Commitment in Consistency:
-* Unity: We both play hockey
+* Authority: An email from facebook asking us to verify ourself using an identity document
+* Scarcity: a rare opportunity, if you don't act now you will lose access
+* Commitment in Consistency: I'm true to my words, if I said ill do something I will do it
+* Unity: We both play hockey/shared a school/like fishing
 
 ---
 
-### Identity Deception
+### Spoofing
 
 * Email from header
 * Caller ids (inc SMS)
 * Urls ([са.com](https://www.xn--80a7a.com/))
 * Look&feel
 
-Note: see https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
+Note:
+
+This deals with the basic problem of verifying identity
+
+See https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
 
 ---
 
-# Protection guidelines
+# Defense techniques
 
 ![shield](images/shield.png)
 ---
 
 ### Compartmentalize
 
-* Sandbox heavily
+* Sandbox different runtimes
+* Separate by use case
 * Use Air gapped devices
-* Separate instances by use
 
 ---
 
@@ -258,29 +259,15 @@ Note:
 
 ---
 
-### General OS hardening
-
-* Remove unused services
-* Un-install unused apps
-* Don't run as root
-* Limit expose ports (firewall or bind to local)
-
----
-
-### Mobile hardening (1)
+### Mobile hardening
 
 * Choose Reputable vendor
 * Use >= 2 phones (per use case)
-* No root
-
----
-
-### Mobile hardening (2)
-
 * Reset/Restart once in a while
 * Deprecate non-updatable devices
-* Minimize installed apps and permissions
+* Minimize apps/permissions
 * Use browser when in doubt
+
 
 Note:
 * Ditch when no current and trusted ROM is available beyond official support
@@ -294,16 +281,16 @@ Note:
 * Minimal extensions set
 * Upgrade constantly
 * Don't trust PDF viewer blindly
-* Run single site per sandbox (i.e Qubes)
+* Single site per instance (i.e Qubes)
 
 ---
 
 ### Network hardening
 
-* segmented networks (VLAN's)
+* Segment networks (VLAN's)
 * Monitor traffic
-* block based on Geo/Reputation
-* Don't trust WIFI security
+* Block based on Geo/Reputation
+* Don't trust WIFI
 
 Note:
 
@@ -312,23 +299,16 @@ Note:
 
 ---
 
-### Trust
-
-* Open source
-* Prefer audited services
-* Understand permissions
-* Frequent patch cycles
-
----
-
 ### Verify
 
-* You can't prove security you can only refute it:
+* You can't prove* security you can only refute it:
   * Check activity logs.
   * Monitor your network/services (ELK/Pfsense)
   * Look for things which are out of place*
 
 Note:
+
+* In some specific contexts [proving](https://en.wikipedia.org/wiki/Provable_security) security is possible (but not in the messy general case that we are in)
 
 Things to watch out for:
 
@@ -416,31 +396,19 @@ Note:
 # Seconomics
 ---
 
-### stats
-
-* 20142 vuln in 2021, 2984 in 2022
-* Oldest CVE discovered as 21yo
-* 19K out of 170k are critical (11%)
-
-
-Note:
-
-Based on https://www.comparitech.com/blog/information-security/cybersecurity-vulnerability-statistics/
-
-
-CVE critically stats https://www.cvedetails.com/
-
----
-
-### Risk vs cost
+### Risk vs cost vs ux
 
 ![risk-vs-cost](images/risk-vs-cost.png)
 
----
+Note:
 
-### UX vs Risk
+We assume all are measured using a normalized common scale.
 
-![ux-vs-risk](images/ux-vs-risk.png)
+Cost is either financial or increased overhead
+
+From a certain point cost has diminishing effect on risk (point a)
+
+From a certain point usability is suffering (point b)
 
 ---
 

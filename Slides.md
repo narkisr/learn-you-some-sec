@@ -15,8 +15,8 @@
 
 # Motivation
 
-* The increased adoption of an online services
-* Sophistication of online attacks
+* Increased tech adoption
+* Increase of online attacks
 * Folks rely on us
 
 Note:
@@ -35,9 +35,9 @@ We aim to provide the following:
 
 ---
 
-### Opertional Security ([NIST](https://csrc.nist.gov/glossary/term/operations_security))
+### Security
 
-"Systematic and proven process by which potential adversaries can be denied information about capabilities and intentions by identifying, controlling, and protecting generally unclassified evidence of the planning and execution of sensitive activities."
+"The state of being free from danger or threat."
 
 ---
 
@@ -218,7 +218,7 @@ See https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
 * Malicious USB HID devices ([1](https://www.youtube.com/watch?v=Y1xzkHOWFkA))
 * Thunderbolt DMA
 * Lan plugs
-* [Fake](https://www.forbes.com/sites/leemathews/2021/06/18/cybercrooks-are-mailing-users-fake-ledger-devices-to-steal-their-cryptocurrency/?sh=3faa7d6adbad) Ledger devices
+* [Fake](https://www.ledger.com/phishing-campaigns-status#phishing-campaigns) Ledger devices
 
 Note:
 
@@ -347,6 +347,7 @@ Things to watch out for:
 ![reuse](images/password-reuse.png)
 
 Note:
+
 * Remote (using dumps):
   * Stuffing
   * Spraying
@@ -368,6 +369,7 @@ Note:
 * Choose Wisely [Kaspersky Password Manager Vuln](https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html)
 * Recommended tools: BW and pass, pwgen, keepass (again prefer those that support some form of hardware 2FA).
 * Password manager, can be air gapped (most secure hardest to use) or online (prefer not as a browser plugin)
+* We are not [random](https://www.expunctis.com/2019/03/07/Not-so-random.html) as we would like to think
 
 ---
 

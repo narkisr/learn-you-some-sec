@@ -152,6 +152,13 @@ Note:
 
 ---
 
+### The hidden enemy
+
+
+![brain](images/brain.png)
+
+---
+
 ### Principles of influence
 
 * Liking
@@ -212,6 +219,10 @@ See https://en.wikipedia.org/wiki/IDN_homograph_attack for URL encoding attacks
 * Thunderbolt DMA
 * Lan plugs
 * [Fake](https://www.forbes.com/sites/leemathews/2021/06/18/cybercrooks-are-mailing-users-fake-ledger-devices-to-steal-their-cryptocurrency/?sh=3faa7d6adbad) Ledger devices
+
+Note:
+
+An example of a blind spot for most people (see biases!)
 
 ---
 
@@ -282,13 +293,15 @@ Note:
 
 ### Network
 
+![network-hardening](images/network-hardening.png)
+
+
+Note:
+
 * Segment networks (VLAN's)
 * Monitor traffic
 * Block based on Geo/Reputation
 * Don't trust WIFI
-
-Note:
-
 * Use pfblockerng/pi-hole
 * One option of increasing security on WIFI is using a mesh VPN solution like Nebula
 

@@ -31,18 +31,13 @@ We aim to provide the following:
 
 ---
 
-### Opertional Security ([NIST](https://csrc.nist.gov/glossary/term/operations_security))
-
-"Systematic and proven process by which potential adversaries can be denied information about capabilities and intentions by identifying, controlling, and protecting generally unclassified evidence of the planning and execution of sensitive activities.
-
-The process involves five steps: identification of critical information, analysis of threats, analysis of vulnerabilities, assessment of risks, and application of appropriate countermeasures."
-
+# Framework of thought
 
 ---
 
-# Framework of thought
+### Opertional Security ([NIST](https://csrc.nist.gov/glossary/term/operations_security))
 
-Note:
+"Systematic and proven process by which potential adversaries can be denied information about capabilities and intentions by identifying, controlling, and protecting generally unclassified evidence of the planning and execution of sensitive activities."
 
 ---
 
@@ -89,20 +84,6 @@ See:
 
 ---
 
-### Security by obscurity
-
-![security-by-obscurity.png](images/security-by-obscurity.png)
-
-Note:
-
-For example port knocking
-
-Close source security
-
-Legal based security
-
----
-
 # Threat analysis
 
 ![hacker](images/hacker.png)
@@ -140,6 +121,10 @@ Note:
 
 ![penetration](images/penetration-flow.png)
 
+
+Note:
+
+Pivoting explain why something like zero trust is critial to limit that
 ---
 
 ### Reverse shell
@@ -167,7 +152,7 @@ Note:
 
 ---
 
-### Social Principles of influence
+### Principles of influence
 
 * Liking
 * Social Proof
@@ -264,14 +249,18 @@ Note:
 
 ---
 
-### Mobile hardening
+### Hardening
+
+---
+
+### Mobile
 
 * Choose Reputable vendor
 * Use >= 2 phones
 * Reset/Restart once in a while.
 * Deprecate out of support devices.
 * Minimize apps/permissions
-* Avoid sideloading/root.
+* No sideloading/root.
 * Use browser when in doubt.
 
 
@@ -282,7 +271,7 @@ Note:
 
 ---
 
-### Browser hardening
+### Browser
 
 * Minimal extensions set
 * Upgrade constantly
@@ -291,7 +280,7 @@ Note:
 
 ---
 
-### Network hardening
+### Network
 
 * Segment networks (VLAN's)
 * Monitor traffic
@@ -339,8 +328,12 @@ Things to watch out for:
 
 ---
 
-### Attacks
+### Password attacks
 
+
+![reuse](images/password-reuse.png)
+
+Note:
 * Remote (using dumps):
   * Stuffing
   * Spraying

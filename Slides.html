@@ -21,8 +21,8 @@
 
 * Motivation
 * Framework of thought
-* Getting into the Attacker mindset
-* Defense techniques
+* Threat analysis
+* Countermeasures
 * Passwords, secrets and lies
 * Seconomics
 </script></section><section  data-markdown><script type="text/template">
@@ -43,11 +43,10 @@
 </ol>
 </aside></script></section><section  data-markdown><script type="text/template">
 # Framework of thought
+</script></section><section  data-markdown><script type="text/template">
+### Opertional Security ([NIST](https://csrc.nist.gov/glossary/term/operations_security))
 
-<aside class="notes"></aside></script></section><section  data-markdown><script type="text/template">
-### Security
-
-"The state of being free from danger or threat."
+"Systematic and proven process by which potential adversaries can be denied information about capabilities and intentions by identifying, controlling, and protecting generally unclassified evidence of the planning and execution of sensitive activities."
 </script></section><section  data-markdown><script type="text/template">
 ### Defense in depth
 
@@ -81,17 +80,10 @@
 <li>This is why we can&#39;t 100% grantee what the software will do, yes even in appstores ;)</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Security by obscurity
+# Threat analysis
 
-![security-by-obscurity.png](images/security-by-obscurity.png)
-
-<aside class="notes"><p>For example port knocking</p>
-<p>Close source security</p>
-<p>Legal based security</p>
-</aside></script></section><section  data-markdown><script type="text/template">
-# Getting into the Attacker mindset
-
-![hacker](images/hacker.png)</script></section><section  data-markdown><script type="text/template">
+![hacker](images/hacker.png)
+</script></section><section  data-markdown><script type="text/template">
 ### Actors
 
    * State
@@ -101,7 +93,7 @@
 </script></section><section  data-markdown><script type="text/template">
 ### Scope
 
-* Single Targeted (spear phishing)
+* Single Targeted (spear phishing/vishing)
 * Group Targeted (watering hole)
 * Wide net (automated, large scale)
 
@@ -116,10 +108,13 @@
 </li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Peneration flow
+### Penetration flow
 
 ![penetration](images/penetration-flow.png)
-</script></section><section  data-markdown><script type="text/template">
+
+
+<aside class="notes"><p>Pivoting explain why something like zero trust is critial to limit that</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ### Reverse shell
 
 ![shell](images/shell-anatomy.png)
@@ -141,7 +136,7 @@
 <li>We drop to standard shell on the machine</li>
 </ol>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Core Principles of influence
+### Principles of influence
 
 * Liking
 * Social Proof
@@ -150,13 +145,29 @@
 
 <aside class="notes"><p>Examples per principle:</p>
 <ul>
-<li>Reciprocity: John gave me access when I needed it</li>
 <li>Liking: attractive profile picture</li>
 <li>Social Proof:  A lot of likes on a post</li>
 <li>Authority: An email from facebook asking us to verify ourself using an identity document</li>
 <li>Scarcity: a rare opportunity, if you don&#39;t act now you will lose access</li>
-<li>Commitment in Consistency: I&#39;m true to my words, if I said ill do something I will do it</li>
-<li>Unity: We both play hockey/shared a school/like fishing</li>
+</ul>
+<p>These can be used in a variety of contexts, from phising to vishing</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Biases
+
+* Availability bias
+* Confirmation bias
+* Optimism bias (WYSIATI)
+
+<aside class="notes"><p>See <a href="https://www.mcafee.com/blogs/other-blogs/executive-perspectives/through-your-minds-eye-what-biases-are-impacting-your-security-posture/">this</a></p>
+<ul>
+<li><p>Availability bias - we react more to recent known events (like in the news) rather to those who have high risk factor.</p>
+</li>
+<li><p>Confirmation bias - we tend to consume information that match our belief, neglecting views that don&#39;t match out perception.</p>
+</li>
+<li><p>Optimism bias (or the optimistic bias) is a cognitive bias that causes someone to believe that they themselves are less likely to experience a negative event. It is also known as unrealistic optimism or comparative optimism.</p>
+</li>
+<li><p>What You See Is All There Is (WYSIATI). This theory states that when the mind makes decisions, it deals primarily with Known Knowns, phenomena it has observed already. It rarely considers Known Unknowns.</p>
+</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
 ### Spoofing
@@ -178,27 +189,13 @@
 </script></section><section  data-markdown><script type="text/template">
 [![OMG](https://img.youtube.com/vi/Y1xzkHOWFkA/0.jpg)](https://www.youtube.com/watch?v=Y1xzkHOWFkA)
 </script></section><section  data-markdown><script type="text/template">
-### DuckyScript
+# Countermeasures
 
-```
-REM Type Hello World into Windows notepad.
-DELAY 1000
-GUI r
-DELAY 100
-STRING c:\windows\notepad.exe
-ENTER
-DELAY 1000
-STRING Hello World
-```
+![shield](images/shield.png)
 </script></section><section  data-markdown><script type="text/template">
-# Defense techniques
+### Compartmentalization
 
-![shield](images/shield.png)</script></section><section  data-markdown><script type="text/template">
-### Compartmentalize
-
-* Sandbox different runtimes
-* Separate by use case
-* Use Air gapped devices
+Sandbox different activities into different runtime environments while keeping least privilege access to common resources.
 </script></section><section  data-markdown><script type="text/template">
 ### Qubes demo
 
@@ -216,14 +213,17 @@ STRING Hello World
 <li>Internal file transfer</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Mobile hardening
+### Hardening
+</script></section><section  data-markdown><script type="text/template">
+### Mobile
 
 * Choose Reputable vendor
-* Use >= 2 phones (per use case)
-* Reset/Restart once in a while
-* Deprecate non-updatable devices
+* Use >= 2 phones
+* Reset/Restart once in a while.
+* Deprecate out of support devices.
 * Minimize apps/permissions
-* Use browser when in doubt
+* No sideloading/root.
+* Use browser when in doubt.
 
 
 <aside class="notes"><ul>
@@ -232,14 +232,14 @@ STRING Hello World
 <li>Faking a <a href="https://www.schneier.com/blog/archives/2022/01/faking-an-iphone-reboot.html">reboot!</a></li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
-### Browser hardening
+### Browser
 
 * Minimal extensions set
 * Upgrade constantly
 * Don't trust PDF viewer blindly
 * Single site per instance (i.e Qubes)
 </script></section><section  data-markdown><script type="text/template">
-### Network hardening
+### Network
 
 * Segment networks (VLAN's)
 * Monitor traffic
@@ -253,9 +253,9 @@ STRING Hello World
 </aside></script></section><section  data-markdown><script type="text/template">
 ### Verify
 
-* You can't prove* security you can only refute it:
+You can't prove* security you can only refute it:
   * Check activity logs.
-  * Monitor your network/services (ELK/Pfsense)
+  * Monitor your network/services (Pfelk/Pfsense)
   * Look for things which are out of place*
 
 <aside class="notes"><ul>
@@ -279,24 +279,33 @@ STRING Hello World
 </script></section><section  data-markdown><script type="text/template">
 # Passwords secrets and lies!
 </script></section><section  data-markdown><script type="text/template">
-### Attacks
+### Password attacks
 
-* Remote (using dumps):
-  * Stuffing
-  * Spraying
-* Local:
-  * Hash cracking (John, Hashcat)
-  * Wordlists/permutations
-</script></section><section  data-markdown><script type="text/template">
-### Passwords
 
-* Have high entropy
-* Unique per domain/use case
-* Use a manager
-* Verified (HIBP)
+![reuse](images/password-reuse.png)
 
 <aside class="notes"><ul>
-<li>mention Travis <a href="https://lock.cmpxchg8b.com/passmgrs.html?m=1">post</a> on the issues with browser plugins,</li>
+<li>Remote (using dumps):<ul>
+<li>Stuffing</li>
+<li>Spraying</li>
+</ul>
+</li>
+<li>Local:<ul>
+<li>Hash cracking (John, Hashcat)</li>
+<li>Wordlists/permutations</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Passwords
+
+* Complex (generated)
+* Unique (per domain/use case)
+* Stored securely
+* Tracked (HIBP)
+
+<aside class="notes"><ul>
+<li>Mention Travis <a href="https://lock.cmpxchg8b.com/passmgrs.html?m=1">post</a> on the issues with browser plugins,</li>
 <li>Choose Wisely <a href="https://www.schneier.com/blog/archives/2021/07/vulnerability-in-the-kaspersky-password-manager.html">Kaspersky Password Manager Vuln</a></li>
 <li>Recommended tools: BW and pass, pwgen, keepass (again prefer those that support some form of hardware 2FA).</li>
 <li>Password manager, can be air gapped (most secure hardest to use) or online (prefer not as a browser plugin)</li>
@@ -326,12 +335,9 @@ STRING Hello World
 * Patterns
 
 <aside class="notes"><ul>
-<li><p>Pins are usually a weak form of a password (4-6 range), should be avoided in favor of password where possible</p>
-</li>
-<li><p>Secret questions, use random text answers</p>
-</li>
-<li><p>Patterns, can be gleaned easily by someone watching hard to randomize (selection bias, folks start from upper left corner)</p>
-</li>
+<li>Pins are usually a weak form of a password (4-6 range), should be avoided in favor of password where possible</li>
+<li>Secret questions, use random text answers</li>
+<li>Patterns, can be gleaned easily by someone watching hard to randomize (selection bias, folks start from upper left corner)</li>
 </ul>
 </aside></script></section><section  data-markdown><script type="text/template">
 # Seconomics
@@ -351,15 +357,14 @@ STRING Hello World
 
 * Defense is a risk/cost/ux balancing act.
 
-* Induction vs deduction (The Turkey).
+* Induction vs deduction (The Turkey problem).
 
 <aside class="notes"><p>We are use to thinking in gausian terms (i.e normal distribution), security doesn&#39;t comply with that, security in black swan terms is from exremistan!</p>
 <p>Scalable vs non scalable (security is scalable due to automation)</p>
 <p>Extermistan vs Mediocristan (std deviation bell curve vs likelihood of extreme events)</p>
 </aside></script></section><section  data-markdown><script type="text/template">
-### The end, stay safe
-
-Questions?
+# The end
+##### stay safe!
 </script></section></div>
     </div>
 

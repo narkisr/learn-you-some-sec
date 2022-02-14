@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="132.66582mm"
-   height="119.64611mm"
-   viewBox="0 0 132.66582 119.64611"
+   width="107.05658mm"
+   height="45.868561mm"
+   viewBox="0 0 107.05658 45.86856"
    version="1.1"
    id="svg983"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -30,9 +30,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.0948152"
-     inkscape:cx="179.93905"
-     inkscape:cy="219.67179"
+     inkscape:zoom="1.5483025"
+     inkscape:cx="173.73866"
+     inkscape:cy="37.783314"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -40,504 +40,377 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs980" />
+     id="defs980">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-9-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-6-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-92" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-9-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-6-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-9-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-6-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-0-7-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5228-9-5-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-9-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5231-6-2-3" />
+    </marker>
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-21.82247,-10.983997)">
-    <g
-       id="g2066"
-       transform="matrix(0.63491484,0,0,0.59318104,23.031101,-5.5732258)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 22.946649,53.427583 c -0.0104,0.004 -0.0209,0.008 -0.0313,0.0117 l -0.32547,0.122 c -1.63922,0.61436 -2.72528,2.18125 -2.72528,3.93184 0,0.58449 0.47384,1.05834 1.05833,1.05834 h 10.58333 c 0.58449,0 1.05834,-0.47385 1.05834,-1.05834 0,-1.75059 -1.08606,-3.31748 -2.72529,-3.93184 l -0.32546,-0.122 c -0.0104,-0.004 -0.0209,-0.008 -0.0313,-0.0117 l -1.70477,1.44341 c -0.90215,0.76385 -2.22417,0.76385 -3.12631,0 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path888"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.783879,45.545413 c 1.6899,-2.33754 5.17158,-2.33754 6.86144,0 l 1.75012,2.42083 c 0.97208,1.34464 0.74488,3.21103 -0.52142,4.28323 l -3.09626,2.62157 c -0.90212,0.76385 -2.22417,0.76385 -3.12629,0 l -3.09626,-2.62157 c -1.26629,-1.07217 -1.49349,-2.93859 -0.52141,-4.28326 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path890"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 20.446979,50.136223 c 1.54043,-1.34991 3.55846,-2.16813 5.76762,-2.16813 2.20914,0 4.2272,0.81822 5.7676,2.16813"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path892"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.630819,48.732553 c 0.0129,0.16383 0.0367,0.32761 0.0715,0.4903 l 0.0592,0.27657 c 0.22172,1.03621 0.89707,1.9181 1.83965,2.40228 1.01282,0.52025 2.21435,0.52025 3.22715,0 0.94257,-0.48418 1.61792,-1.36607 1.83964,-2.40228 l 0.0592,-0.27657 c 0.0348,-0.16269 0.0586,-0.3265 0.0715,-0.49033"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path894"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 26.214579,55.443873 v 3.10758"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path896"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
-       id="g2059"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.34884,-347.20632)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 83.147835,145.96527 a 0.13229167,0.13229167 0 0 1 0.132292,0.13229 v 1.98437 h -3.175 v -1.98437 a 0.13229167,0.13229167 0 0 1 0.132291,-0.13229 z m -2.910417,-0.26459 a 0.396875,0.396875 0 0 0 -0.396875,0.39688 v 2.24896 h 3.704167 v -2.24896 a 0.396875,0.396875 0 0 0 -0.396875,-0.39688 z m -0.661458,2.77813 h 4.233333 a 0.396875,0.396875 0 0 1 -0.396875,0.39687 h -3.439583 a 0.396875,0.396875 0 0 1 -0.396875,-0.39687 z"
-         id="path2049"
-         style="stroke-width:0.264583" />
-    </g>
+     transform="translate(-28.845652,-24.402522)">
     <path
-       fill-rule="evenodd"
-       d="m 84.639803,29.999149 a 0.29792138,0.26331124 35.528693 0 1 0.395466,-0.0412 l 5.718565,4.083316 -0.563277,-2.437935 a 0.29831287,0.26365725 35.528673 0 1 0.560007,-0.0583 l 0.715557,3.099282 a 0.29792138,0.26331124 35.528693 0 1 -0.21665,0.303417 l -3.163773,0.32933 a 0.29830371,0.26364915 35.52868 0 1 -0.126652,-0.548587 l 2.488781,-0.25865 -5.71857,-4.083316 a 0.29792138,0.26331124 35.528693 0 1 -0.08945,-0.387397 z"
-       id="path2080-5"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Arrow1Lstart-0);marker-end:url(#Arrow1Lend-3)"
+       d="m 68.305526,37.123726 c 5.380474,-2.531836 11.550986,-7.832015 26.472242,0"
+       id="path5226-0"
+       sodipodi:nodetypes="cc" />
     <path
-       fill-rule="evenodd"
-       d="m 84.147287,21.822207 a 0.26331123,0.29792138 69.378686 0 1 0.186061,-0.351402 l 6.576616,-2.474745 -2.338495,-0.890199 a 0.26365269,0.29830772 69.378667 0 1 0.263507,-0.497556 l 2.972562,1.13213 a 0.26331123,0.29792138 69.378686 0 1 0.1313,0.348935 l -1.488771,2.81094 A 0.26365298,0.29830803 69.37868 0 1 89.92391,21.699918 l 1.171501,-2.210999 -6.576624,2.474764 A 0.26331123,0.29792138 69.378686 0 1 84.14722,21.822167 Z"
-       id="path2080-5-3"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <g
-       id="g1856"
-       transform="matrix(1.5866317,0,0,1.4139338,-88.941996,-197.72504)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 122.56006,168.83831 h -4.69952 c -0.25954,0 -0.46995,-0.23805 -0.46995,-0.53172 v -0.17764 c 0,-0.77267 0.42367,-1.46427 1.06315,-1.73543 1.13257,-0.48028 2.38055,-0.48028 3.51312,0 0.63948,0.27116 1.06315,0.96276 1.06315,1.73543 v 0.17764 c 0,0.29367 -0.21041,0.53172 -0.46995,0.53172 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path1680"
-         style="fill:none;stroke:#000000;stroke-width:0.550266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 119.49374,164.69979 c 0.44974,0.26138 0.98328,0.26138 1.43301,0 0.41857,-0.24326 0.71844,-0.68633 0.81691,-1.20694 l 0.0263,-0.13896 c 0.10069,-0.53238 -0.007,-1.08802 -0.29499,-1.52407 l -0.0422,-0.0638 c -0.28818,-0.43611 -0.74124,-0.6929 -1.2225,-0.6929 -0.48125,0 -0.93433,0.25679 -1.2225,0.6929 l -0.0422,0.0638 c -0.28813,0.43605 -0.39567,0.99169 -0.295,1.52407 l 0.0263,0.13896 c 0.0985,0.52061 0.39835,0.96368 0.8169,1.20694 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path1682"
-         style="fill:none;stroke:#000000;stroke-width:0.550266;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="65.814171"
-       y="30.778343"
-       id="text2410"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan2408"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="65.814171"
-         y="30.778343">osint</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="65.345032"
-       y="23.445656"
-       id="text2410-6"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan2408-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="65.345032"
-         y="23.445656">scanning</tspan></text>
-    <g
-       id="g2078-4"
-       transform="matrix(2.613735,0,0,2.1488378,-295.16032,-271.70654)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 150.39751,132.29386 a 0.396875,0.396875 0 0 0 -0.39687,0.39688 v 1.85208 a 0.396875,0.396875 0 0 0 0.39687,0.39688 h 1.19063 v 0.26458 h -1.32292 a 0.26458333,0.26458333 0 0 0 -0.26458,0.26458 v 0.79375 a 0.26458333,0.26458333 0 0 0 0.26458,0.26459 h 3.70417 a 0.26458333,0.26458333 0 0 0 0.26458,-0.26459 v -0.79375 a 0.26458333,0.26458333 0 0 0 -0.26458,-0.26458 h -1.32292 v -0.26458 h 1.19063 a 0.396875,0.396875 0 0 0 0.39687,-0.39688 v -1.85208 a 0.396875,0.396875 0 0 0 -0.39687,-0.39688 z m 0,0.26459 h 3.43959 a 0.13229167,0.13229167 0 0 1 0.13229,0.13229 v 1.85208 a 0.13229167,0.13229167 0 0 1 -0.13229,0.13229 h -3.43959 a 0.13229167,0.13229167 0 0 1 -0.13229,-0.13229 v -1.85208 a 0.13229167,0.13229167 0 0 1 0.13229,-0.13229 z m 2.77813,3.0427 a 0.13229167,0.13229167 0 1 1 0.26458,0 0.13229167,0.13229167 0 0 1 -0.26458,0 z m 0.52916,0 a 0.132295,0.132295 0 1 1 0.26459,0 0.132295,0.132295 0 0 1 -0.26459,0 z m -3.30729,-0.13229 h 1.32292 a 0.132295,0.132295 0 0 1 0,0.26459 h -1.32292 a 0.132295,0.132295 0 0 1 0,-0.26459 z m -0.13229,0.59531 a 0.06614583,0.06614583 0 0 1 0.0661,-0.0661 h 1.45521 a 0.06614583,0.06614583 0 1 1 0,0.13229 h -1.45521 a 0.06614583,0.06614583 0 0 1 -0.0661,-0.0662 z"
-         id="path2068-7"
-         style="stroke-width:0.264583" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
-       x="22.42544"
-       y="29.455904"
-       id="text5894"
-       transform="scale(1.0345801,0.96657572)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan5892"
-         style="stroke-width:0.162373"
-         x="22.42544"
-         y="29.455904">1.</tspan></text>
-    <g
-       id="g2066-2"
-       transform="matrix(0.63491484,0,0,0.59318104,23.19159,23.834092)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 22.946649,53.427583 c -0.0104,0.004 -0.0209,0.008 -0.0313,0.0117 l -0.32547,0.122 c -1.63922,0.61436 -2.72528,2.18125 -2.72528,3.93184 0,0.58449 0.47384,1.05834 1.05833,1.05834 h 10.58333 c 0.58449,0 1.05834,-0.47385 1.05834,-1.05834 0,-1.75059 -1.08606,-3.31748 -2.72529,-3.93184 l -0.32546,-0.122 c -0.0104,-0.004 -0.0209,-0.008 -0.0313,-0.0117 l -1.70477,1.44341 c -0.90215,0.76385 -2.22417,0.76385 -3.12631,0 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path888-0"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.783879,45.545413 c 1.6899,-2.33754 5.17158,-2.33754 6.86144,0 l 1.75012,2.42083 c 0.97208,1.34464 0.74488,3.21103 -0.52142,4.28323 l -3.09626,2.62157 c -0.90212,0.76385 -2.22417,0.76385 -3.12629,0 l -3.09626,-2.62157 c -1.26629,-1.07217 -1.49349,-2.93859 -0.52141,-4.28326 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path890-2"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 20.446979,50.136223 c 1.54043,-1.34991 3.55846,-2.16813 5.76762,-2.16813 2.20914,0 4.2272,0.81822 5.7676,2.16813"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path892-3"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.630819,48.732553 c 0.0129,0.16383 0.0367,0.32761 0.0715,0.4903 l 0.0592,0.27657 c 0.22172,1.03621 0.89707,1.9181 1.83965,2.40228 1.01282,0.52025 2.21435,0.52025 3.22715,0 0.94257,-0.48418 1.61792,-1.36607 1.83964,-2.40228 l 0.0592,-0.27657 c 0.0348,-0.16269 0.0586,-0.3265 0.0715,-0.49033"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path894-7"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 26.214579,55.443873 v 3.10758"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path896-5"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
-       id="g2059-9"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.50973,-317.79905)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 83.147835,145.96527 a 0.13229167,0.13229167 0 0 1 0.132292,0.13229 v 1.98437 h -3.175 v -1.98437 a 0.13229167,0.13229167 0 0 1 0.132291,-0.13229 z m -2.910417,-0.26459 a 0.396875,0.396875 0 0 0 -0.396875,0.39688 v 2.24896 h 3.704167 v -2.24896 a 0.396875,0.396875 0 0 0 -0.396875,-0.39688 z m -0.661458,2.77813 h 4.233333 a 0.396875,0.396875 0 0 1 -0.396875,0.39687 h -3.439583 a 0.396875,0.396875 0 0 1 -0.396875,-0.39687 z"
-         id="path2049-2"
-         style="stroke-width:0.264583" />
-    </g>
+       style="fill:none;stroke:#000000;stroke-width:0.257175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Arrow1Lstart-0-8);marker-end:url(#Arrow1Lend-3-7)"
+       d="m 45.721022,37.697751 c 4.014716,-3.195687 11.4508,-10.459606 22.584504,-0.574025"
+       id="path5226-0-6"
+       sodipodi:nodetypes="cc" />
     <path
-       fill-rule="evenodd"
-       d="m 81.924366,53.941614 a 0.29792138,0.26331123 0.19018588 0 1 0.298771,-0.26237 l 7.026766,0.0233 -1.869631,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.42309,-0.371457 l 2.376365,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -0.001,0.372807 l -2.390335,2.098568 a 0.29830753,0.26365253 0.19017988 0 1 -0.42063,-0.374247 l 1.880621,-1.650501 -7.026783,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.297043,-0.264307 z"
-       id="path2080-5-3-7"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="65.505936"
-       y="55.499229"
-       id="text2410-6-3"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan2408-7-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="65.505936"
-         y="55.499229">shell</tspan></text>
+       style="fill:none;stroke:#000000;stroke-width:0.217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Arrow1Lstart-0-7);marker-end:url(#Arrow1Lend-3-9)"
+       d="m 119.55296,54.751668 c -15.40989,5.922103 -32.8541,25.510716 -77.840409,1.360405"
+       id="path5226-0-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Arrow1Lstart-0-7-1);marker-end:url(#Arrow1Lend-3-9-9)"
+       d="m 95.298316,37.421054 c 5.380474,-2.531836 11.551024,-7.832015 26.472364,0"
+       id="path5226-0-2-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.204023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Arrow1Lstart-6);marker-end:url(#Arrow1Lend-5)"
+       d="M 37.502022,38.306075 C 40.366048,27.38001 41.694213,22.867352 44.396686,37.452542"
+       id="path5226-5"
+       sodipodi:nodetypes="cc" />
     <g
-       id="g2078-4-9"
-       transform="matrix(2.613735,0,0,2.1488378,-296.53556,-234.36873)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g27997"
+       transform="translate(-14.81667,3.7041668)">
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+         x="78.715942"
+         y="44.835701"
+         id="text16288"><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.264583"
+           x="78.715942"
+           y="44.835701"
+           id="tspan16290">shell</tspan></text>
       <path
-         d="m 150.39751,132.29386 a 0.396875,0.396875 0 0 0 -0.39687,0.39688 v 1.85208 a 0.396875,0.396875 0 0 0 0.39687,0.39688 h 1.19063 v 0.26458 h -1.32292 a 0.26458333,0.26458333 0 0 0 -0.26458,0.26458 v 0.79375 a 0.26458333,0.26458333 0 0 0 0.26458,0.26459 h 3.70417 a 0.26458333,0.26458333 0 0 0 0.26458,-0.26459 v -0.79375 a 0.26458333,0.26458333 0 0 0 -0.26458,-0.26458 h -1.32292 v -0.26458 h 1.19063 a 0.396875,0.396875 0 0 0 0.39687,-0.39688 v -1.85208 a 0.396875,0.396875 0 0 0 -0.39687,-0.39688 z m 0,0.26459 h 3.43959 a 0.13229167,0.13229167 0 0 1 0.13229,0.13229 v 1.85208 a 0.13229167,0.13229167 0 0 1 -0.13229,0.13229 h -3.43959 a 0.13229167,0.13229167 0 0 1 -0.13229,-0.13229 v -1.85208 a 0.13229167,0.13229167 0 0 1 0.13229,-0.13229 z m 2.77813,3.0427 a 0.13229167,0.13229167 0 1 1 0.26458,0 0.13229167,0.13229167 0 0 1 -0.26458,0 z m 0.52916,0 a 0.132295,0.132295 0 1 1 0.26459,0 0.132295,0.132295 0 0 1 -0.26459,0 z m -3.30729,-0.13229 h 1.32292 a 0.132295,0.132295 0 0 1 0,0.26459 h -1.32292 a 0.132295,0.132295 0 0 1 0,-0.26459 z m -0.13229,0.59531 a 0.06614583,0.06614583 0 0 1 0.0661,-0.0661 h 1.45521 a 0.06614583,0.06614583 0 1 1 0,0.13229 h -1.45521 a 0.06614583,0.06614583 0 0 1 -0.0661,-0.0662 z"
-         id="path2068-7-4"
-         style="stroke-width:0.264583" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
-       x="22.580564"
-       y="59.880074"
-       id="text5894-7"
-       transform="scale(1.0345801,0.96657572)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan5892-8"
-         style="stroke-width:0.162373"
-         x="22.580564"
-         y="59.880074">2.</tspan></text>
-    <g
-       id="g2066-2-6"
-       transform="matrix(0.63491484,0,0,0.59318104,22.819315,46.467158)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 22.946649,53.427583 c -0.0104,0.004 -0.0209,0.008 -0.0313,0.0117 l -0.32547,0.122 c -1.63922,0.61436 -2.72528,2.18125 -2.72528,3.93184 0,0.58449 0.47384,1.05834 1.05833,1.05834 h 10.58333 c 0.58449,0 1.05834,-0.47385 1.05834,-1.05834 0,-1.75059 -1.08606,-3.31748 -2.72529,-3.93184 l -0.32546,-0.122 c -0.0104,-0.004 -0.0209,-0.008 -0.0313,-0.0117 l -1.70477,1.44341 c -0.90215,0.76385 -2.22417,0.76385 -3.12631,0 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path888-0-56"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.783879,45.545413 c 1.6899,-2.33754 5.17158,-2.33754 6.86144,0 l 1.75012,2.42083 c 0.97208,1.34464 0.74488,3.21103 -0.52142,4.28323 l -3.09626,2.62157 c -0.90212,0.76385 -2.22417,0.76385 -3.12629,0 l -3.09626,-2.62157 c -1.26629,-1.07217 -1.49349,-2.93859 -0.52141,-4.28326 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path890-2-9"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 20.446979,50.136223 c 1.54043,-1.34991 3.55846,-2.16813 5.76762,-2.16813 2.20914,0 4.2272,0.81822 5.7676,2.16813"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path892-3-37"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.630819,48.732553 c 0.0129,0.16383 0.0367,0.32761 0.0715,0.4903 l 0.0592,0.27657 c 0.22172,1.03621 0.89707,1.9181 1.83965,2.40228 1.01282,0.52025 2.21435,0.52025 3.22715,0 0.94257,-0.48418 1.61792,-1.36607 1.83964,-2.40228 l 0.0592,-0.27657 c 0.0348,-0.16269 0.0586,-0.3265 0.0715,-0.49033"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path894-7-4"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 26.214579,55.443873 v 3.10758"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path896-5-5"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
+         id="path2644-3-6-2"
+         sodipodi:type="arc"
+         sodipodi:cx="83.33744"
+         sodipodi:cy="42.763008"
+         sodipodi:rx="9.0125847"
+         sodipodi:ry="8.7975454"
+         sodipodi:start="4.712389"
+         sodipodi:end="4.7015679"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 83.33744,33.965463 a 9.0125847,8.7975454 0 0 1 9.012552,8.773746 9.0125847,8.7975454 0 0 1 -8.963789,8.821216 9.0125847,8.7975454 0 0 1 -9.06105,-8.726018 9.0125847,8.7975454 0 0 1 8.914763,-8.868429" />
     </g>
     <g
-       id="g2059-9-2"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.13773,-295.16601)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g28002"
+       transform="translate(-13.758336,4.7625002)">
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+         x="50.063065"
+         y="43.773544"
+         id="text13637"><tspan
+           sodipodi:role="line"
+           id="tspan13635"
+           style="stroke-width:0.264583"
+           x="50.063065"
+           y="43.773544">enum</tspan></text>
       <path
-         d="m 83.147835,145.96527 a 0.13229167,0.13229167 0 0 1 0.132292,0.13229 v 1.98437 h -3.175 v -1.98437 a 0.13229167,0.13229167 0 0 1 0.132291,-0.13229 z m -2.910417,-0.26459 a 0.396875,0.396875 0 0 0 -0.396875,0.39688 v 2.24896 h 3.704167 v -2.24896 a 0.396875,0.396875 0 0 0 -0.396875,-0.39688 z m -0.661458,2.77813 h 4.233333 a 0.396875,0.396875 0 0 1 -0.396875,0.39687 h -3.439583 a 0.396875,0.396875 0 0 1 -0.396875,-0.39687 z"
-         id="path2049-2-5"
-         style="stroke-width:0.264583" />
-    </g>
-    <path
-       fill-rule="evenodd"
-       d="m 82.08127,76.57468 a 0.29792138,0.26331123 0.19018588 0 1 0.298771,-0.26237 l 7.026766,0.0233 -1.869631,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.42309,-0.371457 l 2.376365,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -10e-4,0.372807 l -2.390335,2.098568 a 0.29830753,0.26365253 0.19017988 0 1 -0.42063,-0.374247 l 1.880621,-1.650501 -7.026783,-0.0233 A 0.29792138,0.26331123 0.19018588 0 1 82.081461,76.5746 Z"
-       id="path2080-5-3-7-4"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="65.133682"
-       y="78.132294"
-       id="text2410-6-3-7"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan2408-7-1-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="65.133682"
-         y="78.132294">privesc</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
-       x="22.220726"
-       y="83.295853"
-       id="text5894-7-0"
-       transform="scale(1.0345801,0.96657572)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan5892-8-7"
-         style="stroke-width:0.162373"
-         x="22.220726"
-         y="83.295853">3.</tspan></text>
-    <g
-       id="g2066-2-4"
-       transform="matrix(0.63491484,0,0,0.59318104,23.442864,68.194773)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 22.946649,53.427583 c -0.0104,0.004 -0.0209,0.008 -0.0313,0.0117 l -0.32547,0.122 c -1.63922,0.61436 -2.72528,2.18125 -2.72528,3.93184 0,0.58449 0.47384,1.05834 1.05833,1.05834 h 10.58333 c 0.58449,0 1.05834,-0.47385 1.05834,-1.05834 0,-1.75059 -1.08606,-3.31748 -2.72529,-3.93184 l -0.32546,-0.122 c -0.0104,-0.004 -0.0209,-0.008 -0.0313,-0.0117 l -1.70477,1.44341 c -0.90215,0.76385 -2.22417,0.76385 -3.12631,0 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path888-0-5"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.783879,45.545413 c 1.6899,-2.33754 5.17158,-2.33754 6.86144,0 l 1.75012,2.42083 c 0.97208,1.34464 0.74488,3.21103 -0.52142,4.28323 l -3.09626,2.62157 c -0.90212,0.76385 -2.22417,0.76385 -3.12629,0 l -3.09626,-2.62157 c -1.26629,-1.07217 -1.49349,-2.93859 -0.52141,-4.28326 z"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path890-2-0"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 20.446979,50.136223 c 1.54043,-1.34991 3.55846,-2.16813 5.76762,-2.16813 2.20914,0 4.2272,0.81822 5.7676,2.16813"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path892-3-3"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 22.630819,48.732553 c 0.0129,0.16383 0.0367,0.32761 0.0715,0.4903 l 0.0592,0.27657 c 0.22172,1.03621 0.89707,1.9181 1.83965,2.40228 1.01282,0.52025 2.21435,0.52025 3.22715,0 0.94257,-0.48418 1.61792,-1.36607 1.83964,-2.40228 l 0.0592,-0.27657 c 0.0348,-0.16269 0.0586,-0.3265 0.0715,-0.49033"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path894-7-6"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 26.214579,55.443873 v 3.10758"
-         stroke="#c2ccde"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path896-5-1"
-         style="fill:none;stroke:#000000;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
+         id="path2644-3-6-2-7"
+         sodipodi:type="arc"
+         sodipodi:cx="55.820747"
+         sodipodi:cy="41.704674"
+         sodipodi:rx="9.0125847"
+         sodipodi:ry="8.7975454"
+         sodipodi:start="4.712389"
+         sodipodi:end="4.7015679"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 55.820747,32.907128 a 9.0125847,8.7975454 0 0 1 9.012552,8.773746 9.0125847,8.7975454 0 0 1 -8.963789,8.821216 9.0125847,8.7975454 0 0 1 -9.06105,-8.726018 9.0125847,8.7975454 0 0 1 8.914763,-8.868429" />
     </g>
     <g
-       id="g2059-9-0"
-       transform="matrix(-2.8671262,0,0,2.5269831,288.76101,-273.43811)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         d="m 83.147835,145.96527 a 0.13229167,0.13229167 0 0 1 0.132292,0.13229 v 1.98437 h -3.175 v -1.98437 a 0.13229167,0.13229167 0 0 1 0.132291,-0.13229 z m -2.910417,-0.26459 a 0.396875,0.396875 0 0 0 -0.396875,0.39688 v 2.24896 h 3.704167 v -2.24896 a 0.396875,0.396875 0 0 0 -0.396875,-0.39688 z m -0.661458,2.77813 h 4.233333 a 0.396875,0.396875 0 0 1 -0.396875,0.39687 h -3.439583 a 0.396875,0.396875 0 0 1 -0.396875,-0.39687 z"
-         id="path2049-2-6"
-         style="stroke-width:0.264583" />
-    </g>
-    <path
-       fill-rule="evenodd"
-       d="m 83.763143,98.302292 a 0.29792138,0.26331123 0.19018588 0 1 0.29877,-0.26237 l 7.026768,0.0233 -1.869628,-1.662961 a 0.29830772,0.26365269 0.19016688 0 1 0.423087,-0.371457 l 2.376368,2.114388 a 0.29792138,0.26331123 0.19018588 0 1 -10e-4,0.372807 l -2.390338,2.098571 a 0.29830753,0.26365253 0.19017988 0 1 -0.420627,-0.37425 l 1.880618,-1.650501 -7.026788,-0.0233 a 0.29792138,0.26331123 0.19018588 0 1 -0.29704,-0.264307 z"
-       id="path2080-5-3-7-3"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       fill-rule="evenodd"
-       d="m 109.13074,96.451061 a 0.26331123,0.29792138 59.948862 0 1 0.12597,-0.377137 l 6.08228,-3.518859 -2.45274,-0.495027 a 0.26365269,0.29830772 59.948843 0 1 0.17843,-0.533987 l 3.11788,0.629804 a 0.26331123,0.29792138 59.948862 0 1 0.1869,0.32257 l -1.00812,3.016862 a 0.26365253,0.29830753 59.948856 0 1 -0.55187,-0.11148 l 0.79343,-2.373045 -6.0823,3.518869 a 0.26331123,0.29792138 59.948862 0 1 -0.38973,-0.0787 z"
-       id="path2080-5-3-7-3-4"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       fill-rule="evenodd"
-       d="m 108.78305,101.38329 a 0.29792138,0.26331123 23.745031 0 1 0.37873,-0.12111 l 6.43201,2.82945 -1.04928,-2.27156 a 0.29830772,0.26365269 23.745012 0 1 0.53628,-0.17142 l 1.3334,2.88788 a 0.29792138,0.26331123 23.745031 0 1 -0.1499,0.34134 l -3.02984,0.96848 a 0.29830753,0.26365253 23.745025 0 1 -0.23601,-0.51116 l 2.38352,-0.76144 -6.43203,-2.82947 a 0.29792138,0.26331123 23.745031 0 1 -0.1667,-0.36096 z"
-       id="path2080-5-3-7-3-4-7"
-       style="stroke-width:0.560164"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="65.75721"
-       y="99.860626"
-       id="text2410-6-3-2"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan2408-7-1-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888px;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
-         x="65.75721"
-         y="99.860626">pivot</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.4949px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162373"
-       x="22.823441"
-       y="105.77439"
-       id="text5894-7-5"
-       transform="scale(1.0345801,0.96657572)"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan5892-8-5"
-         style="stroke-width:0.162373"
-         x="22.823441"
-         y="105.77439">4.</tspan></text>
-    <path
-       d="m 119.49368,81.762475 a 0.93812414,0.65200554 0 0 0 -0.93815,0.651997 v 9.128026 a 0.93812414,0.65200554 0 0 0 0.93815,0.651997 h 5.62874 a 0.93812414,0.65200554 0 0 0 0.93812,-0.651997 v -9.128026 a 0.93812414,0.65200554 0 0 0 -0.93812,-0.651997 z m 0.46905,9.128039 a 0.46906209,0.32600278 0 1 1 0,0.651984 0.46906209,0.32600278 0 0 1 0,-0.651984 z m 1.87623,0 a 0.46906209,0.32600278 0 1 1 0,0.651984 0.46906209,0.32600278 0 0 1 0,-0.651984 z m -2.34528,-8.150025 a 0.46906209,0.32600278 0 0 1 0.46905,-0.326017 h 4.6906 a 0.46907389,0.32601099 0 0 1 0,0.652017 h -4.6906 a 0.46906209,0.32600278 0 0 1 -0.46905,-0.326 z m 0.46905,0.977994 h 4.6906 a 0.46906209,0.32600278 0 0 1 0,0.651987 h -4.6906 a 0.46906209,0.32600278 0 0 1 0,-0.651987 z"
-       id="path19229"
-       style="stroke-width:0.782087"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       d="m 122.68307,101.56567 a 0.53379508,0.63044633 0 0 1 0.53379,-0.63044 h 3.20277 a 0.53379508,0.63044633 0 0 1 0.53378,0.63044 v 8.8263 a 0.53379508,0.63044633 0 0 1 -0.53378,0.63045 h -3.20277 a 0.53379508,0.63044633 0 0 1 -0.53379,-0.63045 z m 0.53379,8.51108 a 0.26689755,0.31522318 0 1 0 0.53378,0 0.26689755,0.31522318 0 0 0 -0.53378,0 z m 1.06759,0 a 0.26689755,0.31522318 0 1 0 0.53379,0 0.26689755,0.31522318 0 0 0 -0.53379,0 z m -0.8007,-8.51108 a 0.26690334,0.31523 0 0 0 0,0.63046 h 2.66898 a 0.26690334,0.31523 0 0 0 0,-0.63046 z m -0.26689,1.57613 a 0.26689755,0.31522318 0 0 0 0.26689,0.31523 h 2.66898 a 0.26689909,0.315225 0 0 0 0,-0.63045 h -2.66898 a 0.26689755,0.31522318 0 0 0 -0.26689,0.31522 z m -4.00346,-0.94567 a 0.80069263,0.94566951 0 0 0 -0.8007,0.94567 v 4.41315 a 0.80069263,0.94566951 0 0 0 0.8007,0.94568 h 2.40207 v 1.2609 h -0.26689 a 0.26689755,0.31522318 0 0 0 0,0.63044 h 0.80068 v -2.52179 h -2.93586 a 0.26689755,0.31522318 0 0 1 -0.26691,-0.31523 v -4.41315 a 0.26689755,0.31522318 0 0 1 0.26691,-0.31522 h 2.93586 v -0.63045 z"
-       id="path19238"
-       style="stroke-width:0.580111"
-       inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <g
-       id="g25209"
-       transform="translate(0,-10.054167)">
+       id="g28013"
+       transform="translate(3.7041669,8.4666671)">
       <g
-         id="g2078-4-9-6"
-         transform="matrix(2.613735,0,0,2.1488378,-295.75511,-179.95357)"
-         inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96">
+         id="g28007"
+         transform="translate(-23.812509,-6.879167)">
         <path
-           d="m 150.39751,132.29386 a 0.396875,0.396875 0 0 0 -0.39687,0.39688 v 1.85208 a 0.396875,0.396875 0 0 0 0.39687,0.39688 h 1.19063 v 0.26458 h -1.32292 a 0.26458333,0.26458333 0 0 0 -0.26458,0.26458 v 0.79375 a 0.26458333,0.26458333 0 0 0 0.26458,0.26459 h 3.70417 a 0.26458333,0.26458333 0 0 0 0.26458,-0.26459 v -0.79375 a 0.26458333,0.26458333 0 0 0 -0.26458,-0.26458 h -1.32292 v -0.26458 h 1.19063 a 0.396875,0.396875 0 0 0 0.39687,-0.39688 v -1.85208 a 0.396875,0.396875 0 0 0 -0.39687,-0.39688 z m 0,0.26459 h 3.43959 a 0.13229167,0.13229167 0 0 1 0.13229,0.13229 v 1.85208 a 0.13229167,0.13229167 0 0 1 -0.13229,0.13229 h -3.43959 a 0.13229167,0.13229167 0 0 1 -0.13229,-0.13229 v -1.85208 a 0.13229167,0.13229167 0 0 1 0.13229,-0.13229 z m 2.77813,3.0427 a 0.13229167,0.13229167 0 1 1 0.26458,0 0.13229167,0.13229167 0 0 1 -0.26458,0 z m 0.52916,0 a 0.132295,0.132295 0 1 1 0.26459,0 0.132295,0.132295 0 0 1 -0.26459,0 z m -3.30729,-0.13229 h 1.32292 a 0.132295,0.132295 0 0 1 0,0.26459 h -1.32292 a 0.132295,0.132295 0 0 1 0,-0.26459 z m -0.13229,0.59531 a 0.06614583,0.06614583 0 0 1 0.0661,-0.0661 h 1.45521 a 0.06614583,0.06614583 0 1 1 0,0.13229 h -1.45521 a 0.06614583,0.06614583 0 0 1 -0.0661,-0.0662 z"
-           id="path2068-7-4-1"
-           style="stroke-width:0.264583" />
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
+           id="path2644-3-6"
+           sodipodi:type="arc"
+           sodipodi:cx="115.06044"
+           sodipodi:cy="44.796677"
+           sodipodi:rx="9.0125847"
+           sodipodi:ry="8.7975454"
+           sodipodi:start="4.712389"
+           sodipodi:end="4.7015679"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="m 115.06044,35.999131 a 9.0125847,8.7975454 0 0 1 9.01255,8.773746 9.0125847,8.7975454 0 0 1 -8.96379,8.821216 9.0125847,8.7975454 0 0 1 -9.06105,-8.726018 9.0125847,8.7975454 0 0 1 8.91477,-8.868429" />
+        <text
+           xml:space="preserve"
+           style="font-size:4.9389px;line-height:1.25;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+           x="107.99432"
+           y="46.55724"
+           id="text16288-2"><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.264583"
+             x="107.99432"
+             y="46.55724"
+             id="tspan16290-9">privesc</tspan></text>
       </g>
-      <path
-         d="m 100.49099,105.29617 a 0.13229167,0.13229167 0 0 1 0.16484,0.0881 l 0.077,0.25294 a 1.3173604,1.3173604 0 0 1 0.72258,-0.21457 c 0.26643,0 0.51488,0.0789 0.72258,0.21457 l 0.0767,-0.25294 a 0.13229167,0.13229167 0 1 1 0.25321,0.0767 l -0.10848,0.35772 a 1.3189479,1.3189479 0 0 1 0.37888,0.92684 h 0.13229 a 0.13229167,0.13229167 0 0 0 0.1323,-0.13229 v -0.13229 a 0.13229167,0.13229167 0 0 1 0.26458,0 v 0.13229 a 0.396875,0.396875 0 0 1 -0.39688,0.39688 h -0.13229 v 0.26458 h 0.39688 a 0.132295,0.132295 0 0 1 0,0.26459 h -0.39688 v 0.26458 h 0.13229 a 0.396875,0.396875 0 0 1 0.39688,0.39688 v 0.13229 a 0.13229167,0.13229167 0 1 1 -0.26458,0 v -0.13229 a 0.13229167,0.13229167 0 0 0 -0.1323,-0.13229 h -0.13229 a 1.32292,1.32292 0 0 1 -2.64584,0 h -0.13229 a 0.13229167,0.13229167 0 0 0 -0.132287,0.13229 v 0.13229 a 0.132295,0.132295 0 1 1 -0.26459,0 v -0.13229 a 0.396875,0.396875 0 0 1 0.396877,-0.39688 h 0.13229 v -0.26458 h -0.396877 a 0.132295,0.132295 0 0 1 0,-0.26459 h 0.396877 v -0.26459 h -0.13229 a 0.396875,0.396875 0 0 1 -0.396867,-0.39688 v -0.13229 a 0.132292,0.132292 0 0 1 0.26458,0 v 0.13229 a 0.13229167,0.13229167 0 0 0 0.132287,0.13229 h 0.13229 c 0,-0.36089 0.14473,-0.68818 0.37889,-0.92684 l -0.10848,-0.35771 a 0.13229167,0.13229167 0 0 1 0.0881,-0.16484 z m -0.0939,1.71398 v 1.05834 a 1.0583333,1.0583333 0 0 0 0.92604,1.0504 v -2.10874 z m 1.19063,0 v 2.10874 a 1.0583333,1.0583333 0 0 0 0.92605,-1.0504 v -1.05834 z m 0.92605,-0.26459 a 1.0554229,1.0554229 0 0 0 -0.35295,-0.78899 1.0538354,1.0538354 0 0 0 -0.70539,-0.26934 1.0538354,1.0538354 0 0 0 -0.70565,0.26934 1.0554229,1.0554229 0 0 0 -0.35269,0.78899 z"
-         id="path25095-8"
-         style="stroke-width:0.264583" />
     </g>
     <g
-       id="g25209-6"
-       transform="translate(-0.44074046,-32.362647)">
-      <g
-         id="g2078-4-9-6-8"
-         transform="matrix(2.613735,0,0,2.1488378,-295.75511,-179.95357)"
-         inkscape:export-filename="/home/ronen/learn-you-some-sec/images/penetration-flow.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96">
-        <path
-           d="m 150.39751,132.29386 a 0.396875,0.396875 0 0 0 -0.39687,0.39688 v 1.85208 a 0.396875,0.396875 0 0 0 0.39687,0.39688 h 1.19063 v 0.26458 h -1.32292 a 0.26458333,0.26458333 0 0 0 -0.26458,0.26458 v 0.79375 a 0.26458333,0.26458333 0 0 0 0.26458,0.26459 h 3.70417 a 0.26458333,0.26458333 0 0 0 0.26458,-0.26459 v -0.79375 a 0.26458333,0.26458333 0 0 0 -0.26458,-0.26458 h -1.32292 v -0.26458 h 1.19063 a 0.396875,0.396875 0 0 0 0.39687,-0.39688 v -1.85208 a 0.396875,0.396875 0 0 0 -0.39687,-0.39688 z m 0,0.26459 h 3.43959 a 0.13229167,0.13229167 0 0 1 0.13229,0.13229 v 1.85208 a 0.13229167,0.13229167 0 0 1 -0.13229,0.13229 h -3.43959 a 0.13229167,0.13229167 0 0 1 -0.13229,-0.13229 v -1.85208 a 0.13229167,0.13229167 0 0 1 0.13229,-0.13229 z m 2.77813,3.0427 a 0.13229167,0.13229167 0 1 1 0.26458,0 0.13229167,0.13229167 0 0 1 -0.26458,0 z m 0.52916,0 a 0.132295,0.132295 0 1 1 0.26459,0 0.132295,0.132295 0 0 1 -0.26459,0 z m -3.30729,-0.13229 h 1.32292 a 0.132295,0.132295 0 0 1 0,0.26459 h -1.32292 a 0.132295,0.132295 0 0 1 0,-0.26459 z m -0.13229,0.59531 a 0.06614583,0.06614583 0 0 1 0.0661,-0.0661 h 1.45521 a 0.06614583,0.06614583 0 1 1 0,0.13229 h -1.45521 a 0.06614583,0.06614583 0 0 1 -0.0661,-0.0662 z"
-           id="path2068-7-4-1-8"
-           style="stroke-width:0.264583" />
-      </g>
+       id="g28018"
+       transform="translate(21.695841,-13.758336)">
       <path
-         d="m 100.49099,105.29617 a 0.13229167,0.13229167 0 0 1 0.16484,0.0881 l 0.077,0.25294 a 1.3173604,1.3173604 0 0 1 0.72258,-0.21457 c 0.26643,0 0.51488,0.0789 0.72258,0.21457 l 0.0767,-0.25294 a 0.13229167,0.13229167 0 1 1 0.25321,0.0767 l -0.10848,0.35772 a 1.3189479,1.3189479 0 0 1 0.37888,0.92684 h 0.13229 a 0.13229167,0.13229167 0 0 0 0.1323,-0.13229 v -0.13229 a 0.13229167,0.13229167 0 0 1 0.26458,0 v 0.13229 a 0.396875,0.396875 0 0 1 -0.39688,0.39688 h -0.13229 v 0.26458 h 0.39688 a 0.132295,0.132295 0 0 1 0,0.26459 h -0.39688 v 0.26458 h 0.13229 a 0.396875,0.396875 0 0 1 0.39688,0.39688 v 0.13229 a 0.13229167,0.13229167 0 1 1 -0.26458,0 v -0.13229 a 0.13229167,0.13229167 0 0 0 -0.1323,-0.13229 h -0.13229 a 1.32292,1.32292 0 0 1 -2.64584,0 h -0.13229 a 0.13229167,0.13229167 0 0 0 -0.132287,0.13229 v 0.13229 a 0.132295,0.132295 0 1 1 -0.26459,0 v -0.13229 a 0.396875,0.396875 0 0 1 0.396877,-0.39688 h 0.13229 v -0.26458 h -0.396877 a 0.132295,0.132295 0 0 1 0,-0.26459 h 0.396877 v -0.26459 h -0.13229 a 0.396875,0.396875 0 0 1 -0.396867,-0.39688 v -0.13229 a 0.132292,0.132292 0 0 1 0.26458,0 v 0.13229 a 0.13229167,0.13229167 0 0 0 0.132287,0.13229 h 0.13229 c 0,-0.36089 0.14473,-0.68818 0.37889,-0.92684 l -0.10848,-0.35771 a 0.13229167,0.13229167 0 0 1 0.0881,-0.16484 z m -0.0939,1.71398 v 1.05834 a 1.0583333,1.0583333 0 0 0 0.92604,1.0504 v -2.10874 z m 1.19063,0 v 2.10874 a 1.0583333,1.0583333 0 0 0 0.92605,-1.0504 v -1.05834 z m 0.92605,-0.26459 a 1.0554229,1.0554229 0 0 0 -0.35295,-0.78899 1.0538354,1.0538354 0 0 0 -0.70539,-0.26934 1.0538354,1.0538354 0 0 0 -0.70565,0.26934 1.0554229,1.0554229 0 0 0 -0.35269,0.78899 z"
-         id="path25095-8-4"
-         style="stroke-width:0.264583" />
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
+         id="path2644-3-6-1"
+         sodipodi:type="arc"
+         sodipodi:cx="100.39797"
+         sodipodi:cy="60.583801"
+         sodipodi:rx="9.0125847"
+         sodipodi:ry="8.7975454"
+         sodipodi:start="4.712389"
+         sodipodi:end="4.7015679"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 100.39797,51.786256 a 9.0125847,8.7975454 0 0 1 9.01255,8.773746 9.0125847,8.7975454 0 0 1 -8.96379,8.821216 9.0125847,8.7975454 0 0 1 -9.061046,-8.726018 9.0125847,8.7975454 0 0 1 8.914766,-8.868429" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:aakar;-inkscape-font-specification:aakar;stroke-width:0.264583"
+         x="94.702271"
+         y="61.864586"
+         id="text26498"><tspan
+           sodipodi:role="line"
+           id="tspan26496"
+           style="stroke-width:0.264583"
+           x="94.702271"
+           y="61.864586">pivot</tspan></text>
     </g>
   </g>
 </svg>
